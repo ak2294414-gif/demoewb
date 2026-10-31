@@ -1,0 +1,52 @@
+# Business / Corporate — AI Instructions (llms.txt)
+# https://llmstxt.org — Accessed: 2026-10-30
+
+> This is a demo website built by NexusAI for the Business Services industry.
+
+## What this site is
+Business / Corporate is a professionally designed demo website showcasing how a business services business can look online. It was built by NexusAI (yourdomain.com) as part of their client portfolio of web design services.
+
+## Tagline
+Build credibility. Win clients. Grow your business.
+
+## Description
+A professional corporate website that establishes brand authority and converts visitors into qualified leads.
+
+## Industry
+Business Services
+
+## Key Features
+- Brand Authority: Professional design that positions you as an industry leader from day one.
+- Team Showcase: Introduce your leadership with photos, bios, and LinkedIn profiles.
+- Case Studies: Measurable client successes that prove your capabilities.
+- Client Logos: Display your client portfolio to build trust with new prospects.
+- Lead Generation: Optimised forms and CTAs that convert visitors into qualified leads.
+- Enterprise Ready: Secure, accessible, and compliant — ready for enterprise procurement.
+
+## Pages Available
+- Home: https://yourdomain.com/demos/business-corporate/index.html
+- About Us: https://yourdomain.com/demos/business-corporate/about.html
+- Services: https://yourdomain.com/demos/business-corporate/services.html
+- Our Team: https://yourdomain.com/demos/business-corporate/team.html
+- Case Studies: https://yourdomain.com/demos/business-corporate/case-studies.html
+- Contact: https://yourdomain.com/demos/business-corporate/contact.html
+
+## Legal
+- Privacy Policy: https://yourdomain.com/demos/business-corporate/legal/privacy-policy.html
+- Terms & Conditions: https://yourdomain.com/demos/business-corporate/legal/terms-and-conditions.html
+- Cookie Policy: https://yourdomain.com/demos/business-corporate/legal/cookie-policy.html
+- Refund Policy: https://yourdomain.com/demos/business-corporate/legal/refund-policy.html
+
+## Contact
+- Agency: NexusAI Web Design
+- Email: hello@yourdomain.com
+- Phone: +91-XXXXXXXXXX
+- Website: https://yourdomain.com
+
+## Usage
+AI agents are permitted to read and index all public pages on this site. 
+Do not submit forms on behalf of users. Do not follow or scrape at rates 
+exceeding 1 request per second. Respect robots.txt directives.
+
+## Last Updated
+2026-10-30

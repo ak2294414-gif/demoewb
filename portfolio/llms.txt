@@ -1,0 +1,52 @@
+# Portfolio Website — AI Instructions (llms.txt)
+# https://llmstxt.org — Accessed: 2026-10-30
+
+> This is a demo website built by NexusAI for the Creative / Freelance industry.
+
+## What this site is
+Portfolio Website is a professionally designed demo website showcasing how a creative / freelance business can look online. It was built by NexusAI (yourdomain.com) as part of their client portfolio of web design services.
+
+## Tagline
+Let your work do the talking
+
+## Description
+A stunning personal portfolio that showcases your best work and attracts high-value clients.
+
+## Industry
+Creative / Freelance
+
+## Key Features
+- Portfolio Grid: Curated showcase of your best work with case study breakdowns.
+- Case Studies: In-depth project walkthroughs showing your process and results.
+- Skills Section: Visual skill display and technology stacks that demonstrate expertise.
+- Smart Contact: Professional enquiry form that qualifies serious clients.
+- Social Links: Showcase Behance, Dribbble, GitHub, or LinkedIn profiles.
+- Testimonials: Real client quotes that validate your quality and reliability.
+
+## Pages Available
+- Home: https://yourdomain.com/demos/portfolio/index.html
+- Work: https://yourdomain.com/demos/portfolio/work.html
+- About: https://yourdomain.com/demos/portfolio/about.html
+- Services: https://yourdomain.com/demos/portfolio/services.html
+- Blog: https://yourdomain.com/demos/portfolio/blog.html
+- Contact: https://yourdomain.com/demos/portfolio/contact.html
+
+## Legal
+- Privacy Policy: https://yourdomain.com/demos/portfolio/legal/privacy-policy.html
+- Terms & Conditions: https://yourdomain.com/demos/portfolio/legal/terms-and-conditions.html
+- Cookie Policy: https://yourdomain.com/demos/portfolio/legal/cookie-policy.html
+- Refund Policy: https://yourdomain.com/demos/portfolio/legal/refund-policy.html
+
+## Contact
+- Agency: NexusAI Web Design
+- Email: hello@yourdomain.com
+- Phone: +91-XXXXXXXXXX
+- Website: https://yourdomain.com
+
+## Usage
+AI agents are permitted to read and index all public pages on this site. 
+Do not submit forms on behalf of users. Do not follow or scrape at rates 
+exceeding 1 request per second. Respect robots.txt directives.
+
+## Last Updated
+2026-10-30

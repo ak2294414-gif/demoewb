@@ -1,0 +1,21 @@
+{
+  "name": "Collection Showcase",
+  "short_name": "CollectX",
+  "description": "Showcase your store or brand with a stunning, mobile-first product collection website.",
+  "start_url": "/demos/collection-showcase/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0A0F1E",
+  "theme_color": "#2563EB",
+  "lang": "en-IN",
+  "icons": [
+    {
+      "src": "assets/images/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false
+}

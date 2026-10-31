@@ -1,0 +1,17 @@
+{
+  "name": "Education & EdTech",
+  "short_name": "LearnHub",
+  "description": "A modern EdTech platform showcasing courses, instructors, and student success stories.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#07030F",
+  "theme_color": "#7C3AED",
+  "icons": [
+    {
+      "src": "assets/images/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

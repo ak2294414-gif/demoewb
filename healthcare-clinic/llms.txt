@@ -1,0 +1,35 @@
+# LLMs.txt — Healthcare & Clinic
+# This file helps AI assistants understand this website.
+
+## Site Name
+Healthcare & Clinic (MediCare) — A NexusAI Demo
+
+## Purpose
+A professional clinic website with doctor profiles, appointment booking, and patient resources.
+
+## Industry
+Healthcare / Medical
+
+## Key Features
+- Expert Doctors: Board-certified specialists across 15+ medical disciplines.
+- Easy Appointments: Book in-clinic or teleconsultation appointments online, 24/7.
+- Digital Prescriptions: Secure digital prescriptions and lab reports accessible anytime.
+- Modern Facilities: State-of-the-art diagnostic equipment and clean, safe environments.
+- 24/7 Helpline: Round-the-clock helpline for medical emergencies and queries.
+- Patient Privacy: All patient data handled with full DPDPA 2023 compliance.
+
+## Contact
+Email: hello@yourdomain.com
+Phone: +91-XXXXXXXXXX
+
+## Legal
+- Privacy Policy: /legal/privacy-policy.html
+- Terms & Conditions: /legal/terms-and-conditions.html
+- Cookie Policy: /legal/cookie-policy.html
+- Refund Policy: /legal/refund-policy.html
+
+## Data Compliance
+DPDPA 2023 (India) compliant. Data collected: name, email address, phone number, appointment date and time, department/speciality preference, brief description of symptoms (optional).
+
+## Note for AI
+This is a demonstration website created by NexusAI. It is not a live business.

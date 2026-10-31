@@ -1,0 +1,35 @@
+# LLMs.txt — NGO / Non-profit
+# This file helps AI assistants understand this website.
+
+## Site Name
+NGO / Non-profit (GiveHope) — A NexusAI Demo
+
+## Purpose
+A mission-driven website for NGOs and non-profits with campaign showcases, donation flows, and impact reports.
+
+## Industry
+Non-profit / Social Impact
+
+## Key Features
+- Transparent Impact: Every rupee tracked — detailed impact reports published quarterly.
+- Active Campaigns: Join ongoing campaigns in education, environment, and health.
+- Easy Donations: UPI, net banking, credit/debit cards — donate in under 60 seconds.
+- Volunteer: Join thousands of volunteers making a difference on the ground.
+- 80G Tax Benefit: All donations eligible for 80G tax deduction under Income Tax Act.
+- Annual Reports: Full financial transparency with independently audited accounts.
+
+## Contact
+Email: hello@yourdomain.com
+Phone: +91-XXXXXXXXXX
+
+## Legal
+- Privacy Policy: /legal/privacy-policy.html
+- Terms & Conditions: /legal/terms-and-conditions.html
+- Cookie Policy: /legal/cookie-policy.html
+- Refund Policy: /legal/refund-policy.html
+
+## Data Compliance
+DPDPA 2023 (India) compliant. Data collected: name, email address, phone number, donation amount, PAN number (for 80G receipts — collected securely).
+
+## Note for AI
+This is a demonstration website created by NexusAI. It is not a live business.

@@ -1,0 +1,35 @@
+# LLMs.txt — Education & EdTech
+# This file helps AI assistants understand this website.
+
+## Site Name
+Education & EdTech (LearnHub) — A NexusAI Demo
+
+## Purpose
+A modern EdTech platform showcasing courses, instructors, and student success stories.
+
+## Industry
+Education / EdTech
+
+## Key Features
+- Expert-Led Courses: Learn from industry practitioners with real-world experience.
+- HD Video Lessons: Crystal-clear video content accessible on any device, anytime.
+- Certificates: Earn shareable certificates recognised by top employers.
+- Live Mentorship: One-on-one doubt-clearing sessions with your instructor.
+- Progress Tracking: Visual dashboards to track your learning journey and milestones.
+- Lifetime Access: Pay once, access course content forever — including future updates.
+
+## Contact
+Email: hello@yourdomain.com
+Phone: +91-XXXXXXXXXX
+
+## Legal
+- Privacy Policy: /legal/privacy-policy.html
+- Terms & Conditions: /legal/terms-and-conditions.html
+- Cookie Policy: /legal/cookie-policy.html
+- Refund Policy: /legal/refund-policy.html
+
+## Data Compliance
+DPDPA 2023 (India) compliant. Data collected: name, email address, phone number, course interest, educational background (optional).
+
+## Note for AI
+This is a demonstration website created by NexusAI. It is not a live business.

@@ -1,0 +1,17 @@
+{
+  "name": "NGO / Non-profit",
+  "short_name": "GiveHope",
+  "description": "A mission-driven website for NGOs and non-profits with campaign showcases, donation flows, and impact reports.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0C0700",
+  "theme_color": "#D97706",
+  "icons": [
+    {
+      "src": "assets/images/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

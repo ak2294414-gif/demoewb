@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020B06"/>
+      <stop offset="100%" stop-color="#061A0F"/>
+    </linearGradient>
+    <linearGradient id="ac" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#059669"/>
+      <stop offset="100%" stop-color="#047857"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect x="0" y="540" width="1200" height="6" fill="url(#ac)"/>
+  <text x="80" y="240" font-family="Inter,sans-serif" font-size="68" font-weight="800" fill="#D1FAE5">AppForge</text>
+  <text x="80" y="310" font-family="Inter,sans-serif" font-size="30" fill="#6EE7B7">The smarter way to run your business — in one platform</text>
+  <text x="80" y="500" font-family="Inter,sans-serif" font-size="22" fill="#6EE7B7">NexusAI Demo · Software / SaaS</text>
+</svg>

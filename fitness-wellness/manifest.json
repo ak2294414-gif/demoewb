@@ -1,0 +1,17 @@
+{
+  "name": "Fitness & Wellness",
+  "short_name": "FitZone",
+  "description": "A high-energy fitness website with class schedules, trainer profiles, membership plans, and a nutrition blog.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0A0000",
+  "theme_color": "#DC2626",
+  "icons": [
+    {
+      "src": "assets/images/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

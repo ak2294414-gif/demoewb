@@ -1,0 +1,17 @@
+{
+  "name": "Event & Wedding Planner",
+  "short_name": "Celebrate",
+  "description": "An elegant event-planning website with service packages, portfolio gallery, and enquiry forms.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0C0108",
+  "theme_color": "#BE185D",
+  "icons": [
+    {
+      "src": "assets/images/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

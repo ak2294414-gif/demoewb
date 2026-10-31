@@ -1,0 +1,35 @@
+# LLMs.txt — Fitness & Wellness
+# This file helps AI assistants understand this website.
+
+## Site Name
+Fitness & Wellness (FitZone) — A NexusAI Demo
+
+## Purpose
+A high-energy fitness website with class schedules, trainer profiles, membership plans, and a nutrition blog.
+
+## Industry
+Fitness / Health & Wellness
+
+## Key Features
+- 50+ Classes: From HIIT and yoga to powerlifting and Zumba — something for everyone.
+- Expert Trainers: Certified personal trainers who design programmes around your goals.
+- Nutrition Plans: Personalised diet plans crafted by registered dieticians.
+- Fitness App: Track workouts, calories, and progress in our companion app.
+- Unlimited Access: One membership, all facilities — gym floor, pool, sauna, and studios.
+- Transformation Support: 12-week transformation programmes with guaranteed results.
+
+## Contact
+Email: hello@yourdomain.com
+Phone: +91-XXXXXXXXXX
+
+## Legal
+- Privacy Policy: /legal/privacy-policy.html
+- Terms & Conditions: /legal/terms-and-conditions.html
+- Cookie Policy: /legal/cookie-policy.html
+- Refund Policy: /legal/refund-policy.html
+
+## Data Compliance
+DPDPA 2023 (India) compliant. Data collected: name, email address, phone number, fitness goals (optional), membership plan interest.
+
+## Note for AI
+This is a demonstration website created by NexusAI. It is not a live business.

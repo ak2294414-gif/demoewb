@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EA580C"/>
+      <stop offset="100%" stop-color="#FCD34D"/>
+    </linearGradient>
+    <clipPath id="c"><rect width="1200" height="630" rx="0"/></clipPath>
+  </defs>
+  <rect width="1200" height="630" fill="#0C0601"/>
+  <rect width="1200" height="630" fill="url(#g)" opacity="0.12"/>
+  <rect x="60" y="60" width="1080" height="510" rx="24" fill="#1A0C00" opacity="0.7"/>
+  <rect x="60" y="60" width="6" height="510" rx="3" fill="#EA580C"/>
+  <text x="120" y="200" font-family="Inter,system-ui,sans-serif" font-size="56" font-weight="800" fill="white" opacity="0.95">D2C E-commerce Store</text>
+  <text x="120" y="270" font-family="Inter,system-ui,sans-serif" font-size="28" fill="#D97706">Sell directly. Keep more margin. Grow faster.</text>
+  <text x="120" y="360" font-family="Inter,system-ui,sans-serif" font-size="20" fill="#EA580C" font-weight="700">E-commerce / D2C · yourdomain.com</text>
+  <rect x="120" y="450" width="180" height="52" rx="10" fill="#EA580C"/>
+  <text x="210" y="482" font-family="Inter,system-ui,sans-serif" font-size="20" font-weight="700" fill="white" text-anchor="middle">Live Demo →</text>
+</svg>

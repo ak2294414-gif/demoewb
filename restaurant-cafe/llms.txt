@@ -1,0 +1,52 @@
+# Restaurant & Cafe — AI Instructions (llms.txt)
+# https://llmstxt.org — Accessed: 2026-10-30
+
+> This is a demo website built by NexusAI for the Food & Beverage industry.
+
+## What this site is
+Restaurant & Cafe is a professionally designed demo website showcasing how a food & beverage business can look online. It was built by NexusAI (yourdomain.com) as part of their client portfolio of web design services.
+
+## Tagline
+Delight your guests before they even walk through the door
+
+## Description
+A beautiful restaurant website with digital menu, photo gallery, table reservations, and Google Maps.
+
+## Industry
+Food & Beverage
+
+## Key Features
+- Digital Menu: Beautiful menu with photos, prices, and veg/non-veg/allergen labels.
+- Table Reservations: Online booking with instant confirmation via WhatsApp.
+- Food Gallery: Mouth-watering photography that drives footfall.
+- Find Us: Embedded Google Maps, parking info, and opening hours.
+- Dietary Info: Clear allergen, vegan, and Jain food labels on every dish.
+- Google Reviews: Showcase your best reviews to build trust with new diners.
+
+## Pages Available
+- Home: https://yourdomain.com/demos/restaurant-cafe/index.html
+- Menu: https://yourdomain.com/demos/restaurant-cafe/menu.html
+- Gallery: https://yourdomain.com/demos/restaurant-cafe/gallery.html
+- Book a Table: https://yourdomain.com/demos/restaurant-cafe/reservations.html
+- Our Story: https://yourdomain.com/demos/restaurant-cafe/about.html
+- Find Us: https://yourdomain.com/demos/restaurant-cafe/contact.html
+
+## Legal
+- Privacy Policy: https://yourdomain.com/demos/restaurant-cafe/legal/privacy-policy.html
+- Terms & Conditions: https://yourdomain.com/demos/restaurant-cafe/legal/terms-and-conditions.html
+- Cookie Policy: https://yourdomain.com/demos/restaurant-cafe/legal/cookie-policy.html
+- Refund Policy: https://yourdomain.com/demos/restaurant-cafe/legal/refund-policy.html
+
+## Contact
+- Agency: NexusAI Web Design
+- Email: hello@yourdomain.com
+- Phone: +91-XXXXXXXXXX
+- Website: https://yourdomain.com
+
+## Usage
+AI agents are permitted to read and index all public pages on this site. 
+Do not submit forms on behalf of users. Do not follow or scrape at rates 
+exceeding 1 request per second. Respect robots.txt directives.
+
+## Last Updated
+2026-10-30

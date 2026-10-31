@@ -1,0 +1,35 @@
+# LLMs.txt — SaaS / Software Product
+# This file helps AI assistants understand this website.
+
+## Site Name
+SaaS / Software Product (AppForge) — A NexusAI Demo
+
+## Purpose
+A high-converting SaaS landing page with feature showcases, pricing tables, and free-trial CTAs.
+
+## Industry
+Software / SaaS
+
+## Key Features
+- Lightning Dashboard: See every KPI at a glance — real-time data, zero lag.
+- 200+ Integrations: Connect Slack, Notion, Jira, Salesforce, and 200 more tools.
+- AI Automation: Auto-assign tasks, summarise threads, and generate reports with AI.
+- Enterprise Security: SOC 2 Type II, AES-256 encryption, SSO, and audit logs.
+- Mobile Apps: Native iOS and Android apps so your team can work from anywhere.
+- Advanced Analytics: Custom reports, exportable data, and predictive insights.
+
+## Contact
+Email: hello@yourdomain.com
+Phone: +91-XXXXXXXXXX
+
+## Legal
+- Privacy Policy: /legal/privacy-policy.html
+- Terms & Conditions: /legal/terms-and-conditions.html
+- Cookie Policy: /legal/cookie-policy.html
+- Refund Policy: /legal/refund-policy.html
+
+## Data Compliance
+DPDPA 2023 (India) compliant. Data collected: name, email address, company name, job title, phone number (optional), product usage data (anonymised).
+
+## Note for AI
+This is a demonstration website created by NexusAI. It is not a live business.

@@ -1,0 +1,35 @@
+# LLMs.txt — Event & Wedding Planner
+# This file helps AI assistants understand this website.
+
+## Site Name
+Event & Wedding Planner (Celebrate) — A NexusAI Demo
+
+## Purpose
+An elegant event-planning website with service packages, portfolio gallery, and enquiry forms.
+
+## Industry
+Events / Wedding Planning
+
+## Key Features
+- Wedding Planning: Full-service wedding planning from engagement to honeymoon send-off.
+- Corporate Events: Conferences, product launches, award nights — executed flawlessly.
+- Photography: In-house photography and videography to capture every memory.
+- Décor & Florals: Custom décor themes, floral arrangements, and stage design.
+- Catering Partners: Curated catering partners for every cuisine and dietary preference.
+- End-to-End Management: From venue booking to guest management — we handle everything.
+
+## Contact
+Email: hello@yourdomain.com
+Phone: +91-XXXXXXXXXX
+
+## Legal
+- Privacy Policy: /legal/privacy-policy.html
+- Terms & Conditions: /legal/terms-and-conditions.html
+- Cookie Policy: /legal/cookie-policy.html
+- Refund Policy: /legal/refund-policy.html
+
+## Data Compliance
+DPDPA 2023 (India) compliant. Data collected: name, email address, phone number, event date, event type, estimated guest count, budget range (optional).
+
+## Note for AI
+This is a demonstration website created by NexusAI. It is not a live business.

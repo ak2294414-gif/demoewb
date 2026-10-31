@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020C12"/>
+      <stop offset="100%" stop-color="#061A24"/>
+    </linearGradient>
+    <linearGradient id="ac" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0891B2"/>
+      <stop offset="100%" stop-color="#0E7490"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect x="0" y="540" width="1200" height="6" fill="url(#ac)"/>
+  <text x="80" y="240" font-family="Inter,sans-serif" font-size="68" font-weight="800" fill="#E0F2FE">MediCare</text>
+  <text x="80" y="310" font-family="Inter,sans-serif" font-size="30" fill="#7DD3FC">Compassionate care, trusted by thousands of patients</text>
+  <text x="80" y="500" font-family="Inter,sans-serif" font-size="22" fill="#7DD3FC">NexusAI Demo · Healthcare / Medical</text>
+</svg>

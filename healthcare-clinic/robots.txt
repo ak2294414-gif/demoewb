@@ -1,0 +1,9 @@
+# robots.txt — Healthcare & Clinic NexusAI Demo
+# NOTE: This is a demo site. Production site should update accordingly.
+
+User-agent: *
+Disallow: /legal/
+Disallow: /assets/
+Allow: /
+
+Sitemap: https://yourdomain.com/demos/healthcare-clinic/sitemap.xml

@@ -1,0 +1,21 @@
+{
+  "name": "Business / Corporate",
+  "short_name": "CorpSite",
+  "description": "A professional corporate website that establishes brand authority and converts visitors into qualified leads.",
+  "start_url": "/demos/business-corporate/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#020817",
+  "theme_color": "#1E40AF",
+  "lang": "en-IN",
+  "icons": [
+    {
+      "src": "assets/images/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false
+}

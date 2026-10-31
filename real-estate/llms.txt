@@ -1,0 +1,52 @@
+# Real Estate / Property — AI Instructions (llms.txt)
+# https://llmstxt.org — Accessed: 2026-10-30
+
+> This is a demo website built by NexusAI for the Real Estate industry.
+
+## What this site is
+Real Estate / Property is a professionally designed demo website showcasing how a real estate business can look online. It was built by NexusAI (yourdomain.com) as part of their client portfolio of web design services.
+
+## Tagline
+Find your perfect property with confidence
+
+## Description
+A professional real estate website with property listings, high-resolution galleries, and instant enquiry forms.
+
+## Industry
+Real Estate
+
+## Key Features
+- Property Listings: Detailed listings with photos, floor plans, price, and amenities.
+- Smart Search: Filter by location, type, price, BHK, and more to find the perfect match.
+- Photo Galleries: High-resolution images and virtual tour link support.
+- Agent Profiles: Verified agents with ratings, active listings, and direct contact.
+- Map View: Interactive property map with neighbourhood highlights.
+- Instant Enquiry: One-click call and WhatsApp buttons on every single listing.
+
+## Pages Available
+- Home: https://yourdomain.com/demos/real-estate/index.html
+- Listings: https://yourdomain.com/demos/real-estate/listings.html
+- About Us: https://yourdomain.com/demos/real-estate/about.html
+- Our Agents: https://yourdomain.com/demos/real-estate/agents.html
+- Projects: https://yourdomain.com/demos/real-estate/projects.html
+- Contact: https://yourdomain.com/demos/real-estate/contact.html
+
+## Legal
+- Privacy Policy: https://yourdomain.com/demos/real-estate/legal/privacy-policy.html
+- Terms & Conditions: https://yourdomain.com/demos/real-estate/legal/terms-and-conditions.html
+- Cookie Policy: https://yourdomain.com/demos/real-estate/legal/cookie-policy.html
+- Refund Policy: https://yourdomain.com/demos/real-estate/legal/refund-policy.html
+
+## Contact
+- Agency: NexusAI Web Design
+- Email: hello@yourdomain.com
+- Phone: +91-XXXXXXXXXX
+- Website: https://yourdomain.com
+
+## Usage
+AI agents are permitted to read and index all public pages on this site. 
+Do not submit forms on behalf of users. Do not follow or scrape at rates 
+exceeding 1 request per second. Respect robots.txt directives.
+
+## Last Updated
+2026-10-30

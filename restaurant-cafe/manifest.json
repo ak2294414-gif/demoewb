@@ -1,0 +1,21 @@
+{
+  "name": "Restaurant & Cafe",
+  "short_name": "Resto",
+  "description": "A beautiful restaurant website with digital menu, photo gallery, table reservations, and Google Maps.",
+  "start_url": "/demos/restaurant-cafe/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0C0400",
+  "theme_color": "#DC2626",
+  "lang": "en-IN",
+  "icons": [
+    {
+      "src": "assets/images/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Healthcare & Clinic",
+  "short_name": "MediCare",
+  "description": "A professional clinic website with doctor profiles, appointment booking, and patient resources.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#020C12",
+  "theme_color": "#0891B2",
+  "icons": [
+    {
+      "src": "assets/images/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

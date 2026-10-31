@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Restaurant & Cafe — Delight your guests before they even walk through the door</title>
+  <meta name="description" content="A beautiful restaurant website with digital menu, photo gallery, table reservations, and Google Maps.">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <link rel="canonical" href="https://yourdomain.com/demos/restaurant-cafe/">
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Restaurant & Cafe">
+  <meta property="og:title" content="Restaurant & Cafe — Delight your guests before they even walk through the door">
+  <meta property="og:description" content="A beautiful restaurant website with digital menu, photo gallery, table reservations, and Google Maps.">
+  <meta property="og:image" content="https://yourdomain.com/demos/restaurant-cafe/assets/images/og-image.svg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:url" content="https://yourdomain.com/demos/restaurant-cafe/">
+  <meta property="og:locale" content="en_IN">
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Restaurant & Cafe — Delight your guests before they even walk through the door">
+  <meta name="twitter:description" content="A beautiful restaurant website with digital menu, photo gallery, table reservations, and Google Maps.">
+  <meta name="twitter:image" content="https://yourdomain.com/demos/restaurant-cafe/assets/images/og-image.svg">
+  <!-- PWA / Favicon -->
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#DC2626">
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+  <link rel="apple-touch-icon" href="assets/images/favicon.svg">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+  <!-- Styles -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <!-- Skip Link -->
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <!-- Cookie Consent Banner -->
+  <div id="cookie-banner" class="cookie-banner" role="region" aria-label="Cookie consent" hidden>
+    <div class="cookie-inner">
+      <p class="cookie-text">
+        We use only essential cookies to make this site work. No tracking without your consent.
+        By continuing, you agree to our
+        <a href="legal/cookie-policy.html">Cookie Policy</a> and
+        <a href="legal/privacy-policy.html">Privacy Policy</a>.
+        This site complies with <strong>India's DPDPA 2023</strong>.
+      </p>
+      <div class="cookie-actions">
+        <button id="cookie-accept" class="btn btn-primary btn-sm" type="button">Accept</button>
+        <button id="cookie-decline" class="btn btn-ghost btn-sm" type="button">Decline Non-Essential</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="site-header" role="banner">
+    <nav class="nav" aria-label="Main navigation">
+      <a href="index.html" class="nav-logo" aria-label="Restaurant & Cafe Home">
+        <span>Restaurant</span>& Cafe
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle menu" type="button">
+        <span class="nav-toggle-line" aria-hidden="true"></span>
+        <span class="nav-toggle-line" aria-hidden="true"></span>
+        <span class="nav-toggle-line" aria-hidden="true"></span>
+      </button>
+      <ul id="nav-menu" class="nav-menu" role="list">
+      <li><a href="index.html" class="nav-link active ".strip()>Home</a></li>
+      <li><a href="menu.html" class="nav-link  ".strip()>Menu</a></li>
+      <li><a href="gallery.html" class="nav-link  ".strip()>Gallery</a></li>
+      <li><a href="reservations.html" class="nav-link  ".strip()>Book a Table</a></li>
+      <li><a href="about.html" class="nav-link  ".strip()>Our Story</a></li>
+      <li><a href="contact.html" class="nav-link  ".strip()>Find Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "[Your Business Name]",
+    "description": "A beautiful restaurant website with digital menu, photo gallery, table reservations, and Google Maps.",
+    "url": "https://yourdomain.com/demos/restaurant-cafe/",
+    "logo": "https://yourdomain.com/demos/restaurant-cafe/assets/images/favicon.svg",
+    "image": "https://yourdomain.com/demos/restaurant-cafe/assets/images/og-image.svg",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "[Your City]",
+      "addressRegion": "[Your State]",
+      "addressCountry": "IN",
+      "postalCode": "[XXXXXX]"
+    },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+91-XXXXXXXXXX",
+      "contactType": "customer service",
+      "email": "hello@yourdomain.com",
+      "availableLanguage": ["English", "Hindi"]
+    },
+    "sameAs": [
+      "https://www.instagram.com/yourbusiness",
+      "https://www.facebook.com/yourbusiness"
+    ]
+  }
+  </script>
+
+  <main id="main">
+
+    <!-- ═══ HERO ═══════════════════════════════════════════ -->
+    <section class="hero" aria-labelledby="hero-h1">
+      <div class="container">
+        <div class="hero-grid">
+          <div class="hero-content">
+            <span class="hero-badge">🍽️ Fine Dining Experience</span>
+            <h1 id="hero-h1" class="hero-title">
+              <!-- REPLACE: Main headline — make it benefit-focused -->
+              <span class="grad-text">A Taste of Something Special</span>
+            </h1>
+            <p class="hero-sub">
+              <!-- REPLACE: Supporting copy (1-2 sentences, max 20 words) -->
+              A beautiful restaurant website with digital menu, photo gallery, table reservations, and Google Maps.
+            </p>
+            <div class="hero-actions">
+              <a href="contact.html" class="btn btn-primary btn-lg">Book a Table →</a>
+              <a href="#features" class="btn btn-outline btn-lg">See Features</a>
+            </div>
+          </div>
+          <div class="hero-visual">
+            <div class="hero-img-box" role="img" aria-label="Hero image placeholder">
+              <!-- REPLACE: Add actual hero image here -->
+              <!-- <img src="assets/images/hero.webp" alt="Descriptive alt text" width="800" height="600" loading="eager"> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ FEATURES ════════════════════════════════════════ -->
+    <section class="section section-alt" id="features" aria-labelledby="feat-heading">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">What You Get</span>
+          <h2 id="feat-heading" class="section-title">Everything You Need to Succeed Online</h2>
+          <p class="section-sub">Built for Food & Beverage — every feature is chosen to drive real results.</p>
+        </div>
+        <div class="feat-grid">
+        <article class="feat-card anim">
+          <div class="feat-icon" aria-hidden="true">📋</div>
+          <h3 class="feat-title">Digital Menu</h3>
+          <p class="feat-desc">Beautiful menu with photos, prices, and veg/non-veg/allergen labels.</p>
+        </article>
+        <article class="feat-card anim">
+          <div class="feat-icon" aria-hidden="true">📅</div>
+          <h3 class="feat-title">Table Reservations</h3>
+          <p class="feat-desc">Online booking with instant confirmation via WhatsApp.</p>
+        </article>
+        <article class="feat-card anim">
+          <div class="feat-icon" aria-hidden="true">🖼️</div>
+          <h3 class="feat-title">Food Gallery</h3>
+          <p class="feat-desc">Mouth-watering photography that drives footfall.</p>
+        </article>
+        <article class="feat-card anim">
+          <div class="feat-icon" aria-hidden="true">📍</div>
+          <h3 class="feat-title">Find Us</h3>
+          <p class="feat-desc">Embedded Google Maps, parking info, and opening hours.</p>
+        </article>
+        <article class="feat-card anim">
+          <div class="feat-icon" aria-hidden="true">🌿</div>
+          <h3 class="feat-title">Dietary Info</h3>
+          <p class="feat-desc">Clear allergen, vegan, and Jain food labels on every dish.</p>
+        </article>
+        <article class="feat-card anim">
+          <div class="feat-icon" aria-hidden="true">⭐</div>
+          <h3 class="feat-title">Google Reviews</h3>
+          <p class="feat-desc">Showcase your best reviews to build trust with new diners.</p>
+        </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ MAIN CONTENT SECTION ════════════════════════════ -->
+    <section class="section" aria-labelledby="main-section-heading">
+      <div class="container">
+        <h2 id="main-section-heading" class="section-title" style="margin-bottom:2rem">
+          <!-- REPLACE: Section heading (e.g. "Our Products", "Featured Listings") -->
+          [Add Your Main Section Here]
+        </h2>
+        <div class="ph-block anim">
+          <strong>📦 Main Content Section</strong>
+          This is where your primary content goes — products, listings, menu items, portfolio grid, etc.<br>
+          Replace this placeholder block with your actual content components.<br>
+          <br>
+          <em>Suggested components: Cards Grid · Carousel · Filter Bar · Search Box</em>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ SOCIAL PROOF ════════════════════════════════════ -->
+    <section class="section section-alt" aria-labelledby="proof-heading">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Why Choose Us</span>
+          <h2 id="proof-heading" class="section-title">Trusted by Our Customers</h2>
+          <p class="section-sub">Real results from real clients.</p>
+        </div>
+        <div class="ph-block anim">
+          <strong>⭐ Testimonials / Reviews / Stats</strong>
+          Add real testimonials here. Do not add fake reviews — this violates consumer protection law.<br>
+          Options: Google Reviews embed · Client quotes with photos · Key statistics (e.g. "500+ happy customers")
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ CTA ══════════════════════════════════════════════ -->
+    <section class="cta-section" aria-labelledby="cta-heading">
+      <div class="container">
+        <h2 id="cta-heading" class="cta-title">
+          Ready to Get Started?
+        </h2>
+        <p class="cta-sub">
+          Delight your guests before they even walk through the door. Let's make it happen.
+        </p>
+        <a href="contact.html" class="btn btn-white btn-lg">Book a Table Today →</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="footer-logo">
+            <span>Restaurant</span>& Cafe
+          </a>
+          <p class="footer-tagline">Delight your guests before they even walk through the door</p>
+        </div>
+        <nav aria-label="Site pages">
+          <h3 class="footer-title">Pages</h3>
+          <ul class="footer-links" role="list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="reservations.html">Book a Table</a></li>
+        <li><a href="about.html">Our Story</a></li>
+        <li><a href="contact.html">Find Us</a></li>
+          </ul>
+        </nav>
+        <nav aria-label="Legal pages">
+          <h3 class="footer-title">Legal</h3>
+          <ul class="footer-links" role="list">
+            <li><a href="legal/privacy-policy.html">Privacy Policy</a></li>
+            <li><a href="legal/terms-and-conditions.html">Terms &amp; Conditions</a></li>
+            <li><a href="legal/cookie-policy.html">Cookie Policy</a></li>
+            <li><a href="legal/refund-policy.html">Refund Policy</a></li>
+          </ul>
+        </nav>
+        <div class="footer-contact">
+          <h3 class="footer-title">Contact</h3>
+          <p>
+            <strong>[Business Name]</strong><br>
+            [Full Address]<br>
+            Pin: [XXXXXX]<br>
+            <br>
+            📧 <a href="mailto:hello@yourdomain.com">hello@yourdomain.com</a><br>
+            📞 <a href="tel:+91XXXXXXXXXX">+91-XXXXXXXXXX</a><br>
+            💬 <a href="https://wa.me/91XXXXXXXXXX" rel="noopener noreferrer" target="_blank">WhatsApp</a>
+          </p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 [Business Name]. All rights reserved.</p>
+        <p>Designed &amp; Built by <a href="https://yourdomain.com" rel="noopener noreferrer">NexusAI</a> &middot; <a href="legal/privacy-policy.html">Privacy</a> &middot; <a href="legal/cookie-policy.html">Cookies</a></p>
+      </div>
+    </div>
+  </footer>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

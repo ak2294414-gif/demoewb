@@ -1,0 +1,21 @@
+{
+  "name": "D2C E-commerce Store",
+  "short_name": "D2C Store",
+  "description": "A complete direct-to-consumer online store with cart, checkout, and UPI payment integration.",
+  "start_url": "/demos/d2c-ecommerce/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0C0601",
+  "theme_color": "#EA580C",
+  "lang": "en-IN",
+  "icons": [
+    {
+      "src": "assets/images/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false
+}

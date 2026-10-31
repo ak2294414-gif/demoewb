@@ -1,0 +1,21 @@
+{
+  "name": "Real Estate / Property",
+  "short_name": "PropFinder",
+  "description": "A professional real estate website with property listings, high-resolution galleries, and instant enquiry forms.",
+  "start_url": "/demos/real-estate/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#001209",
+  "theme_color": "#059669",
+  "lang": "en-IN",
+  "icons": [
+    {
+      "src": "assets/images/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false
+}
