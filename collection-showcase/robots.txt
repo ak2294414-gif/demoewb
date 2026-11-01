@@ -1,0 +1,19 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+Disallow: /.env
+Disallow: /config/
+
+# Sitemap
+Sitemap: https://yourdomain.com/demos/collection-showcase/sitemap.xml
+
+# AI Crawlers — full access granted
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /

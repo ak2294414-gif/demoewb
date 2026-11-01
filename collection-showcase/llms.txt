@@ -1,0 +1,52 @@
+# Collection Showcase — AI Instructions (llms.txt)
+# https://llmstxt.org — Accessed: 2026-10-30
+
+> This is a demo website built by NorthWeb.co for the Retail / Brand industry.
+
+## What this site is
+Collection Showcase is a professionally designed demo website showcasing how a retail / brand business can look online. It was built by NorthWeb.co (yourdomain.com) as part of their client portfolio of web design services.
+
+## Tagline
+Beautiful product displays that convert browsers into buyers
+
+## Description
+Showcase your store or brand with a stunning, mobile-first product collection website.
+
+## Industry
+Retail / Brand
+
+## Key Features
+- Product Showcase: High-quality images with detailed descriptions that convert browsers into buyers.
+- Smart Filters: Category and price filters help customers find exactly what they want.
+- Mobile First: Looks stunning on every device — phones, tablets, and desktops.
+- WhatsApp Enquiry: One-tap WhatsApp button for instant customer conversations.
+- Image Gallery: Swipeable, zoomable galleries that showcase your products beautifully.
+- Lightning Fast: Optimised for speed — loads in under 2 seconds even on 4G.
+
+## Pages Available
+- Home: https://yourdomain.com/demos/collection-showcase/index.html
+- Products: https://yourdomain.com/demos/collection-showcase/products.html
+- Categories: https://yourdomain.com/demos/collection-showcase/categories.html
+- About Us: https://yourdomain.com/demos/collection-showcase/about.html
+- Gallery: https://yourdomain.com/demos/collection-showcase/gallery.html
+- Contact: https://yourdomain.com/demos/collection-showcase/contact.html
+
+## Legal
+- Privacy Policy: https://yourdomain.com/demos/collection-showcase/legal/privacy-policy.html
+- Terms & Conditions: https://yourdomain.com/demos/collection-showcase/legal/terms-and-conditions.html
+- Cookie Policy: https://yourdomain.com/demos/collection-showcase/legal/cookie-policy.html
+- Refund Policy: https://yourdomain.com/demos/collection-showcase/legal/refund-policy.html
+
+## Contact
+- Agency: NorthWeb.co Web Design
+- Email: hello@yourdomain.com
+- Phone: +91-XXXXXXXXXX
+- Website: https://yourdomain.com
+
+## Usage
+AI agents are permitted to read and index all public pages on this site. 
+Do not submit forms on behalf of users. Do not follow or scrape at rates 
+exceeding 1 request per second. Respect robots.txt directives.
+
+## Last Updated
+2026-10-30
