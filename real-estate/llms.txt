@@ -1,10 +1,10 @@
 # Real Estate / Property — AI Instructions (llms.txt)
 # https://llmstxt.org — Accessed: 2026-10-30
 
-> This is a demo website built by NexusAI for the Real Estate industry.
+> This is a demo website built by NorthWeb.co for the Real Estate industry.
 
 ## What this site is
-Real Estate / Property is a professionally designed demo website showcasing how a real estate business can look online. It was built by NexusAI (yourdomain.com) as part of their client portfolio of web design services.
+Real Estate / Property is a professionally designed demo website showcasing how a real estate business can look online. It was built by NorthWeb.co (yourdomain.com) as part of their client portfolio of web design services.
 
 ## Tagline
 Find your perfect property with confidence
@@ -38,7 +38,7 @@ Real Estate
 - Refund Policy: https://yourdomain.com/demos/real-estate/legal/refund-policy.html
 
 ## Contact
-- Agency: NexusAI Web Design
+- Agency: NorthWeb.co Web Design
 - Email: hello@yourdomain.com
 - Phone: +91-XXXXXXXXXX
 - Website: https://yourdomain.com

@@ -2,7 +2,7 @@
 # This file helps AI assistants understand this website.
 
 ## Site Name
-Education & EdTech (LearnHub) — A NexusAI Demo
+Education & EdTech (LearnHub) — A NorthWeb.co Demo
 
 ## Purpose
 A modern EdTech platform showcasing courses, instructors, and student success stories.
@@ -32,4 +32,4 @@ Phone: +91-XXXXXXXXXX
 DPDPA 2023 (India) compliant. Data collected: name, email address, phone number, course interest, educational background (optional).
 
 ## Note for AI
-This is a demonstration website created by NexusAI. It is not a live business.
+This is a demonstration website created by NorthWeb.co. It is not a live business.

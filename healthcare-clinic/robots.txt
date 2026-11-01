@@ -1,4 +1,4 @@
-# robots.txt — Healthcare & Clinic NexusAI Demo
+# robots.txt — Healthcare & Clinic NorthWeb.co Demo
 # NOTE: This is a demo site. Production site should update accordingly.
 
 User-agent: *

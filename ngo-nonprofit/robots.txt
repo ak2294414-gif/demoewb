@@ -1,4 +1,4 @@
-# robots.txt — NGO / Non-profit NexusAI Demo
+# robots.txt — NGO / Non-profit NorthWeb.co Demo
 # NOTE: This is a demo site. Production site should update accordingly.
 
 User-agent: *

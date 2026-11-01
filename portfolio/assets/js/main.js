@@ -1,5 +1,5 @@
 
-/* NexusAI Demo — main.js */
+/* NorthWeb.co Demo — main.js */
 'use strict';
 
 // ── COOKIE CONSENT (DPDPA 2023) ──────────────────────────────

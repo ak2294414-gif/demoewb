@@ -1,4 +1,4 @@
-# robots.txt — Fitness & Wellness NexusAI Demo
+# robots.txt — Fitness & Wellness NorthWeb.co Demo
 # NOTE: This is a demo site. Production site should update accordingly.
 
 User-agent: *

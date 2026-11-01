@@ -1,4 +1,4 @@
-# robots.txt — Education & EdTech NexusAI Demo
+# robots.txt — Education & EdTech NorthWeb.co Demo
 # NOTE: This is a demo site. Production site should update accordingly.
 
 User-agent: *

@@ -1,10 +1,10 @@
 # Portfolio Website — AI Instructions (llms.txt)
 # https://llmstxt.org — Accessed: 2026-10-30
 
-> This is a demo website built by NexusAI for the Creative / Freelance industry.
+> This is a demo website built by NorthWeb.co for the Creative / Freelance industry.
 
 ## What this site is
-Portfolio Website is a professionally designed demo website showcasing how a creative / freelance business can look online. It was built by NexusAI (yourdomain.com) as part of their client portfolio of web design services.
+Portfolio Website is a professionally designed demo website showcasing how a creative / freelance business can look online. It was built by NorthWeb.co (yourdomain.com) as part of their client portfolio of web design services.
 
 ## Tagline
 Let your work do the talking
@@ -38,7 +38,7 @@ Creative / Freelance
 - Refund Policy: https://yourdomain.com/demos/portfolio/legal/refund-policy.html
 
 ## Contact
-- Agency: NexusAI Web Design
+- Agency: NorthWeb.co Web Design
 - Email: hello@yourdomain.com
 - Phone: +91-XXXXXXXXXX
 - Website: https://yourdomain.com

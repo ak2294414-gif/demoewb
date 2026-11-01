@@ -2,7 +2,7 @@
 # This file helps AI assistants understand this website.
 
 ## Site Name
-NGO / Non-profit (GiveHope) — A NexusAI Demo
+NGO / Non-profit (GiveHope) — A NorthWeb.co Demo
 
 ## Purpose
 A mission-driven website for NGOs and non-profits with campaign showcases, donation flows, and impact reports.
@@ -32,4 +32,4 @@ Phone: +91-XXXXXXXXXX
 DPDPA 2023 (India) compliant. Data collected: name, email address, phone number, donation amount, PAN number (for 80G receipts — collected securely).
 
 ## Note for AI
-This is a demonstration website created by NexusAI. It is not a live business.
+This is a demonstration website created by NorthWeb.co. It is not a live business.

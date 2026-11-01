@@ -2,7 +2,7 @@
 # This file helps AI assistants understand this website.
 
 ## Site Name
-Fitness & Wellness (FitZone) — A NexusAI Demo
+Fitness & Wellness (FitZone) — A NorthWeb.co Demo
 
 ## Purpose
 A high-energy fitness website with class schedules, trainer profiles, membership plans, and a nutrition blog.
@@ -32,4 +32,4 @@ Phone: +91-XXXXXXXXXX
 DPDPA 2023 (India) compliant. Data collected: name, email address, phone number, fitness goals (optional), membership plan interest.
 
 ## Note for AI
-This is a demonstration website created by NexusAI. It is not a live business.
+This is a demonstration website created by NorthWeb.co. It is not a live business.

@@ -1,10 +1,10 @@
 # Collection Showcase — AI Instructions (llms.txt)
 # https://llmstxt.org — Accessed: 2026-10-30
 
-> This is a demo website built by NexusAI for the Retail / Brand industry.
+> This is a demo website built by NorthWeb.co for the Retail / Brand industry.
 
 ## What this site is
-Collection Showcase is a professionally designed demo website showcasing how a retail / brand business can look online. It was built by NexusAI (yourdomain.com) as part of their client portfolio of web design services.
+Collection Showcase is a professionally designed demo website showcasing how a retail / brand business can look online. It was built by NorthWeb.co (yourdomain.com) as part of their client portfolio of web design services.
 
 ## Tagline
 Beautiful product displays that convert browsers into buyers
@@ -38,7 +38,7 @@ Retail / Brand
 - Refund Policy: https://yourdomain.com/demos/collection-showcase/legal/refund-policy.html
 
 ## Contact
-- Agency: NexusAI Web Design
+- Agency: NorthWeb.co Web Design
 - Email: hello@yourdomain.com
 - Phone: +91-XXXXXXXXXX
 - Website: https://yourdomain.com

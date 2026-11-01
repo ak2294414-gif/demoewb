@@ -1,4 +1,4 @@
-# robots.txt — SaaS / Software Product NexusAI Demo
+# robots.txt — SaaS / Software Product NorthWeb.co Demo
 # NOTE: This is a demo site. Production site should update accordingly.
 
 User-agent: *

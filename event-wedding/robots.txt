@@ -1,4 +1,4 @@
-# robots.txt — Event & Wedding Planner NexusAI Demo
+# robots.txt — Event & Wedding Planner NorthWeb.co Demo
 # NOTE: This is a demo site. Production site should update accordingly.
 
 User-agent: *
