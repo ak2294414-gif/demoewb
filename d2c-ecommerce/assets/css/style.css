@@ -90,6 +90,7 @@ h1,h2,h3 { font-family: var(--ff-head); font-weight: 600; letter-spacing: -.01em
 .nav-logo { font-family:var(--ff-head);font-size:1.5rem;font-weight:700;color:var(--text);letter-spacing:-.02em;display:flex;align-items:center;gap:.15em; }
 .nav-logo span { color:var(--p); }
 .nav-menu { display:flex;align-items:center;gap:.25rem;list-style:none; }
+@media(max-width:768px) { .nav-menu { display:none; } .nav-menu.open { display:flex; } }
 .nav-link { font-size:.875rem;font-weight:500;color:var(--text);padding:.5rem .875rem;border-radius:var(--r);transition:all .2s;letter-spacing:.01em; }
 .nav-link:hover,.nav-link.active { color:var(--p); }
 .nav-link.active { background:var(--clr-burg-l); }
