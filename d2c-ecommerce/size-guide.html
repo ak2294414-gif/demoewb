@@ -15,6 +15,15 @@
     .size-table tr:nth-child(even) td { background:var(--surf) }
     .size-note { font-size:.8rem;color:var(--muted);margin-top:.5rem;font-style:italic }
   </style>
+<style>
+@media(max-width:768px){
+  html,body{overflow-x:hidden;width:100%}
+  .nav-menu{display:none!important}
+  .nav-menu.open{display:flex!important;position:fixed;top:72px;left:0;right:0;bottom:0;background:var(--bg,#FAF8F5);flex-direction:column;align-items:stretch;padding:1.25rem;gap:.25rem;list-style:none;z-index:999;overflow-y:auto;transform:none!important}
+  .nav-toggle{display:flex!important}
+  .cart-drawer{width:100vw!important}
+}
+</style>
 </head>
 <body>
 <div class="demo-topbar">⚠️ DEMO WEBSITE — Built by <a href="https://northwebco.shop" target="_blank" rel="noopener">NorthWeb Co.</a></div>
