@@ -1,0 +1,10 @@
+{
+  "name": "Vastralaya — Premium Indian Fashion",
+  "short_name": "Vastralaya",
+  "description": "Demo D2C fashion store. Built by NorthWeb Co.",
+  "start_url": "/",
+  "display": "browser",
+  "theme_color": "#6B1929",
+  "background_color": "#FAF8F5",
+  "icons": [{"src": "assets/images/favicon.svg", "type": "image/svg+xml", "sizes": "any"}]
+}

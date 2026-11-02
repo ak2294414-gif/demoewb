@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <title>Men's T-Shirts — Vastralaya</title>
+  <meta name="description" content="Shop 20 premium men's t-shirts: graphic oversized tees, polo shirts, streetwear. DEMO store by NorthWeb Co.">
+  <meta name="robots" content="noindex,nofollow">
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to main content</a>
+<div id="cookie-banner" class="cookie-banner" role="region" aria-label="Cookie consent" hidden>
+  <div class="cookie-inner">
+    <p class="cookie-text">We use only essential cookies. Compliant with <strong>India's DPDPA 2023</strong>. <a href="legal/cookie-policy.html">Cookie Policy</a> · <a href="legal/privacy-policy.html">Privacy Policy</a>.</p>
+    <div class="cookie-actions">
+      <button id="cookie-accept" class="btn btn-primary btn-sm" type="button">Accept</button>
+      <button id="cookie-decline" class="btn btn-ghost btn-sm" type="button">Decline</button>
+    </div>
+  </div>
+</div>
+<div class="demo-topbar" role="note">⚠️ <strong>DEMO WEBSITE</strong> — All products & prices are fictional. Built by <a href="https://northwebco.shop" target="_blank" rel="noopener noreferrer">NorthWeb Co.</a></div>
+<div id="cart-overlay" class="cart-overlay" aria-hidden="true"></div>
+<aside id="cart-drawer" class="cart-drawer" role="dialog" aria-modal="true" aria-label="Shopping cart">
+  <div class="cart-header"><h2 class="cart-title">Your Bag</h2><button id="cart-close" class="cart-close" aria-label="Close cart">✕</button></div>
+  <div id="cart-body" class="cart-body"></div>
+  <div id="cart-footer" class="cart-footer" hidden>
+    <div class="cart-subtotal"><span>Subtotal</span><strong id="cart-subtotal">₹0</strong></div>
+    <p style="font-size:.78rem;color:var(--muted);margin-bottom:1rem">Taxes & shipping calculated at checkout</p>
+    <a href="cart.html" class="btn btn-primary btn-full">Proceed to Checkout</a>
+    <p class="cart-note">🔒 Demo mode — no real payment</p>
+  </div>
+</aside>
+<header class="site-header" role="banner">
+  <nav class="nav" aria-label="Main navigation">
+    <a href="index.html" class="nav-logo" aria-label="Vastralaya Home"><span>Vastra</span>laya</a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle menu" type="button">
+      <span class="nav-toggle-line" aria-hidden="true"></span><span class="nav-toggle-line" aria-hidden="true"></span><span class="nav-toggle-line" aria-hidden="true"></span>
+    </button>
+    <ul id="nav-menu" class="nav-menu" role="list"><li><a href="index.html" class="nav-link">Home</a></li>
+<li><a href="tshirts.html" class="nav-link active">Men's T-Shirts</a></li>
+<li><a href="kurtis.html" class="nav-link">Kurti Sets</a></li>
+<li><a href="sarees.html" class="nav-link">Sarees</a></li>
+<li><a href="about.html" class="nav-link">About</a></li>
+<li><a href="contact.html" class="nav-link">Contact</a></li></ul>
+    <div class="nav-actions">
+      <button class="nav-icon-btn open-cart" aria-label="Open cart">🛍️<span class="cart-count" hidden>0</span></button>
+    </div>
+  </nav>
+</header>
+<div class="demo-overlay" id="demo-overlay" role="dialog" aria-modal="true" aria-labelledby="demo-title">
+  <div class="demo-box">
+    <p style="font-size:2rem;margin-bottom:.5rem">🛍️</p>
+    <h2 id="demo-title">This is a Demo Website</h2>
+    <p>Vastralaya is a <strong>fictional demonstration store</strong> by <strong>NorthWeb Co.</strong> No real purchases possible.</p>
+    <button class="btn btn-primary" id="close-demo" style="width:100%">Got it — Continue Browsing</button>
+  </div>
+</div>
+<main id="main">
+  <div class="page-header" style="background:var(--clr-dark);color:#fff;padding:3.5rem 0 2.5rem">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Breadcrumb" style="color:rgba(255,255,255,.5)">
+        <a href="index.html" style="color:rgba(255,255,255,.5)">Home</a>
+        <span class="breadcrumb-sep" aria-hidden="true">›</span>
+        <span style="color:var(--clr-gold-l)">Men's T-Shirts</span>
+      </nav>
+      <div class="page-header-inner">
+        <div>
+          <h1 class="page-h1" style="color:#fff;font-family:var(--ff-head)">Men's T-Shirts</h1>
+          <p style="color:rgba(255,255,255,.6);margin-top:.5rem">20 styles · Graphic, Polo, Oversized & more</p>
+        </div>
+        <p class="page-count" style="color:rgba(255,255,255,.5)">20 styles</p>
+      </div>
+    </div>
+  </div>
+  <section class="section" aria-labelledby="listing-h">
+    <div class="container">
+      <h2 id="listing-h" class="sr-only">All Men's T-Shirts</h2>
+      <div class="filter-bar" role="group" aria-label="Filter and sort">
+        <span class="filter-label">Sort:</span>
+        <button class="filter-chip  active" data-group="sort" type="button">All</button>
+<button class="filter-chip" data-group="sort" type="button">Trending</button>
+<button class="filter-chip" data-group="sort" type="button">New Arrivals</button>
+<button class="filter-chip" data-group="sort" type="button">Graphic Tees</button>
+<button class="filter-chip" data-group="sort" type="button">Polo</button>
+<button class="filter-chip" data-group="sort" type="button">Oversized</button>
+<button class="filter-chip" data-group="sort" type="button">Under ₹800</button>
+      </div>
+      <div class="product-grid" role="list">
+        <article class="product-card anim" aria-label="Brown Zip Polo"
+  data-product='{"id": "t0", "name": "Brown Zip Polo", "color": "Brown \u00b7 Zip Collar", "price": "\u20b9799", "priceStr": "\u20b9799", "img": "assets/images/tshirts/0.png"}'>
+  <div class="card-img-wrap">
+    <img src="assets/images/tshirts/0.png" alt="Brown Zip Polo — Brown · Zip Collar" loading="lazy" width="400" height="533">
+    <span class="card-badge ">New</span>
+    <button class="card-wish" data-id="t0" aria-label="Add Brown Zip Polo to wishlist">♡</button>
+  </div>
+  <div class="card-body">
+    <h3 class="card-name">Brown Zip Polo</h3>
+    <p class="card-meta">Brown · Zip Collar</p>
+    <div class="size-options" style="margin-bottom:.5rem"><button class="size-btn" type="button">S</button><button class="size-btn" type="button">M</button><button class="size-btn" type="button">L</button><button class="size-btn" type="button">XL</button><button class="size-btn" type="button">XXL</button></div>
+    <p class="card-price">₹799</p>
+    <div class="card-actions">
+      <button class="btn-cart" type="button">Add to Bag</button>
+      <button class="btn-quick" type="button" title="View details" onclick="document.getElementById('demo-overlay').classList.add('show')">👁</button>
+    </div>
+  </div>
+</article>
+<article class="product-card anim" aria-label="Grey Knit Polo"
+  data-product='{"id": "t1", "name": "Grey Knit Polo", "color": "Grey \u00b7 Classic", "price": "\u20b9849", "priceStr": "\u20b9849", "img": "assets/images/tshirts/1.png"}'>
+  <div class="card-img-wrap">
+    <img src="assets/images/tshirts/1.png" alt="Grey Knit Polo — Grey · Classic" loading="lazy" width="400" height="533">
+    <span class="card-badge ">Classic</span>
+    <button class="card-wish" data-id="t1" aria-label="Add Grey Knit Polo to wishlist">♡</button>
+  </div>
+  <div class="card-body">
+    <h3 class="card-name">Grey Knit Polo</h3>
+    <p class="card-meta">Grey · Classic</p>
+    <div class="size-options" style="margin-bottom:.5rem"><button class="size-btn" type="button">S</button><button class="size-btn" type="button">M</button><button class="size-btn" type="button">L</button><button class="size-btn" type="button">XL</button></div>
+    <p class="card-price">₹849</p>
+    <div class="card-actions">
+      <button class="btn-cart" type="button">Add to Bag</button>
+      <button class="btn-quick" type="button" title="View details" onclick="document.getElementById('demo-overlay').classList.add('show')">👁</button>
+    </div>
+  </div>
+</article>
+<article class="product-card anim" aria-label="Culture Graphic Tee"
+  data-product='{"id": "t2", "name": "Culture Graphic Tee", "color": "Black \u00b7 Oversized", "price": "\u20b9899", "priceStr": "\u20b9899", "img": "assets/images/tshirts/2.png"}'>
+  <div class="card-img-wrap">
+    <img src="assets/images/tshirts/2.png" alt="Culture Graphic Tee — Black · Oversized" loading="lazy" width="400" height="533">
+    <span class="card-badge ">Trending</span>
+    <button class="card-wish" data-id="t2" aria-label="Add Culture Graphic Tee to wishlist">♡</button>
+  </div>
+  <div class="card-body">
+    <h3 class="card-name">Culture Graphic Tee</h3>
+    <p class="card-meta">Black · Oversized</p>
+    <div class="size-options" style="margin-bottom:.5rem"><button class="size-btn" type="button">S</button><button class="size-btn" type="button">M</button><button class="size-btn" type="button">L</button><button class="size-btn" type="button">XL</button><button class="size-btn" type="button">XXL</button></div>
+    <p class="card-price">₹899</p>
+    <div class="card-actions">
+      <button class="btn-cart" type="button">Add to Bag</button>
+      <button class="btn-quick" type="button" title="View details" onclick="document.getElementById('demo-overlay').classList.add('show')">👁</button>
+    </div>
+  </div>
+</article>
+<article class="product-card anim" aria-label="Vintage Wash Tee"
+  data-product='{"id": "t3", "name": "Vintage Wash Tee", "color": "Sand \u00b7 Regular", "price": "\u20b9749", "priceStr": "\u20b9749", "img": "assets/images/tshirts/3.png"}'>
+  <div class="card-img-wrap">
+    <img src="assets/images/tshirts/3.png" alt="Vintage Wash Tee — Sand · Regular" loading="lazy" width="400" height="533">
+    
+    <button class="card-wish" data-id="t3" aria-label="Add Vintage Wash Tee to wishlist">♡</button>
+  </div>
+  <div class="card-body">
+    <h3 class="card-name">Vintage Wash Tee</h3>
+    <p class="card-meta">Sand · Regular</p>
+    <div class="size-options" style="margin-bottom:.5rem"><button class="size-btn" type="button">S</button><button class="size-btn" type="button">M</button><button class="size-btn" type="button">L</button><button class="size-btn" type="button">XL</button></div>
+    <p class="card-price">₹749</p>
+    <div class="card-actions">
+      <button class="btn-cart" type="button">Add to Bag</button>
+      <button class="btn-quick" type="button" title="View details" onclick="document.getElementById('demo-overlay').classList.add('show')">👁</button>
+    </div>
+  </div>
+</article>
+<article class="product-card anim" aria-label="Varsity Drop Shoulder"
+  data-product='{"id": "t4", "name": "Varsity Drop Shoulder", "color": "Navy \u00b7 Oversized", "price": "\u20b9999", "priceStr": "\u20b9999", "img": "assets/images/tshirts/4.png"}'>
+  <div class="card-img-wrap">
+    <img src="assets/images/tshirts/4.png" alt="Varsity Drop Shoulder — Navy · Oversized" loading="lazy" width="400" height="533">
+    <span class="card-badge ">New</span>
+    <button class="card-wish" data-id="t4" aria-label="Add Varsity Drop Shoulder to wishlist">♡</button>
+  </div>
+  <div class="card-body">
+    <h3 class="card-name">Varsity Drop Shoulder</h3>
+    <p class="card-meta">Navy · Oversized</p>
+    <div class="size-options" style="margin-bottom:.5rem"><button class="size-btn" type="button">M</button><button class="size-btn" type="button">L</button><button class="size-btn" type="button">XL</button><button class="size-btn" type="button">XXL</button></div>
+    <p class="card-price">₹999</p>
+    <div class="card-actions">
+      <button class="btn-cart" type="button">Add to Bag</button>
+      <button class="btn-quick" type="button" title="View details" onclick="document.getElementById('demo-overlay').classList.add('show')">👁</button>
+    </div>
+  </div>
+</article>
+<article class="product-card anim" aria-label="Unleash the Dragon Tee"
+  data-product='{"id": "t5", "name": "Unleash the Dragon Tee", "color": "Black \u00b7 Oversized", "price": "\u20b9949", "priceStr": "\u20b9949", "img": "assets/images/tshirts/5.png"}'>
+  <div class="card-img-wrap">
+    <img src="assets/images/tshirts/5.png" alt="Unleash the Dragon Tee — Black · Oversized" loading="lazy" width="400" height="533">
+    <span class="card-badge ">Trending</span>
+    <button class="card-wish" data-id="t5" aria-label="Add Unleash the Dragon Tee to wishlist">♡</button>
+  </div>
+  <div class="card-body">
+    <h3 class="card-name">Unleash the Dragon Tee</h3>
+    <p class="card-meta">Black · Oversized</p>
+    <div class="size-options" style="margin-bottom:.5rem"><button class="size-btn" type="button">S</button><button class="size-btn" type="button">M</button><button class="size-btn" type="button">L</button><button class="size-btn" type="button">XL</button><button class="size-btn" type="button">XXL</button></div>
+    <p class="card-price">₹949</p>
+    <div class="card-actions">
+      <button class="btn-cart" type="button">Add to Bag</button>
+      <button class="btn-quick" type="button" title="View details" onclick="document.getElementById('demo-overlay').classList.add('show')">👁</button>
+    </div>
+  </div>
+</article>
+<article class="product-card anim" aria-label="Earth Pocket Tee"
+  data-product='{"id": "t6", "name": "Earth Pocket Tee", "color": "Olive \u00b7 Regular", "price": "\u20b9699", "priceStr": "\u20b9699", "img": "assets/images/tshirts/6.png"}'>
+  <div class="card-img-wrap">
+    <img src="assets/images/tshirts/6.png" alt="Earth Pocket Tee — Olive · Regular" loading="lazy" width="400" height="533">
+    
+    <button class="card-wish" data-id="t6" aria-label="Add Earth Pocket Tee to wishlist">♡</button>
+  </div>
+  <div class="card-body">
+    <h3 class="card-name">Earth Pocket Tee</h3>
+    <p class="card-meta">Olive · Regular</p>
+    <div class="size-options" style="margin-bottom:.5rem"><button class="size-btn" type="button">S</button><button class="size-btn" type="button">M</button><button class="size-btn" type="button">L</button><button class="size-btn" type="button">XL</button></div>
+    <p class="card-price">₹699</p>
+    <div class="card-actions">
+      <button class="btn-cart" type="button">Add to Bag</button>
+      <button class="btn-quick" type="button" title="View details" onclick="document.getElementById('demo-overlay').classList.add('show')">👁</button>
+    </div>
+  </div>
+</article>
+<article class="product-card anim" aria-label="Midnight Stripe Polo"
+  data-product='{"id": "t7", "name": "Midnight Stripe Polo", "color": "Black/White \u00b7 Polo", "price": "\u20b9899", "priceStr": "\u20b9899", "img": "assets/images/tshirts/7.png"}'>
+  <div class="card-img-wrap">
+    <img src="assets/images/tshirts/7.png" alt="Midnight Stripe Polo — Black/White · Polo" loading="lazy" width="400" height="533">
+    
+    <button class="card-wish" data-id="t7" aria-label="Add Midnight Stripe Polo to wishlist">♡</button>
+  </div>
+  <div class="card-body">
+    <h3 class="card-name">Midnight Stripe Polo</h3>
+    <p class="card-meta">Black/White · Polo</p>
+    <div class="size-options" style="margin-bottom:.5rem"><button class="size-btn" type="button">S</button><button class="size-btn" type="button">M</button><button class="size-btn" type="button">L</button><button class="size-btn" type="button">XL</button></div>
+    <p class="card-price">₹899</p>
+    <div class="card-actions">
+      <button class="btn-cart" type="button">Add to Bag</button>
+      <button class="btn-quick" type="button" title="View details" onclick="document.getElementById('demo-overlay').classList.add('show')">👁</button>
+    </div>
+  </div>
+</article>
+<article class="product-card anim" aria-label="Logo Emboss Tee"
+  data-product='{"id": "t8", "name": "Logo Emboss Tee", "color": "Charcoal \u00b7 Regular", "price": "\u20b9799", "priceStr": "\u20b9799", "img": "assets/images/tshirts/8.png"}'>
+  <div class="card-img-wrap">
+    <img src="assets/images/tshirts/8.png" alt="Logo Emboss Tee — Charcoal · Regular" loading="lazy" width="400" height="533">
+    
+    <button class="card-wish" data-id="t8" aria-label="Add Logo Emboss Tee to wishlist">♡</button>
+  </div>
+  <div class="card-body">
+    <h3 class="card-name">Logo Emboss Tee</h3>
+    <p class="card-meta">Charcoal · Regular</p>
+    <div class="size-options" style="margin-bottom:.5rem"><button class="size-btn" type="button">S</button><button class="size-btn" type="button">M</button><button class="size-btn" type="button">L</button><button class="size-btn" type="button">XL</button><button class="size-btn" type="button">XXL</button></div>
+    <p class="card-price">₹799</p>
+    <div class="card-actions">
+      <button class="btn-cart" type="button">Add to Bag</button>
+      <button class="btn-quick" type="button" title="View details" onclick="document.getElementById('demo-overlay').classList.add('show')">👁</button>
+    </div>
+  </div>
+</article>
+<article class="product-card anim" aria-label="Rust Slub Henley"
+  data-product='{"id": "t9", "name": "Rust Slub Henley", "color": "Rust \u00b7 Henley", "price": "\u20b9849", "priceStr": "\u20b9849", "img": "assets/images/tshirts/9.png"}'>
+  <div class="card-img-wrap">
+    <img src="assets/images/tshirts/9.png" alt="Rust Slub Henley — Rust · Henley" loading="lazy" width="400" height="533">
+    
+    <button class="card-wish" data-id="t9" aria-label="Add Rust Slub Henley to wishlist">♡</button>
+  </div>
+  <div class="card-body">
+    <h3 class="card-name">Rust Slub Henley</h3>
+    <p class="card-meta">Rust · Henley</p>
+    <div class="size-options" style="margin-bottom:.5rem"><button class="size-btn" type="button">S</button><button class="size-btn" type="button">M</button><button class="size-btn" type="button">L</button><button class="size-btn" type="button">XL</button></div>
+    <p class="card-price">₹849</p>
+    <div class="card-actions">
+      <button class="btn-cart" type="button">Add to Bag</button>
+      <button class="btn-quick" type="button" title="View details" onclick="document.getElementById('demo-overlay').classList.add('show')">👁</button>
+    </div>
+  </div>
+</article>
+<article class="product-card anim" aria-label="Tokyo Print Oversized"
+  data-product='{"id": "t10", "name": "Tokyo Print Oversized", "color": "White \u00b7 Oversized", "price": "\u20b9949", "priceStr": "\u20b9949", "img": "assets/images/tshirts/10.png"}'>
+  <div class="card-img-wrap">
+    <img src="assets/images/tshirts/10.png" alt="Tokyo Print Oversized — White · Oversized" loading="lazy" width="400" height="533">
+    <span class="card-badge ">Hype</span>
+    <button class="card-wish" data-id="t10" aria-label="Add Tokyo Print Oversized to wishlist">♡</button>
+  </div>
+  <div class="card-body">
+    <h3 class="card-name">Tokyo Print Oversized</h3>
+    <p class="card-meta">White · Oversized</p>
+    <div class="size-options" style="margin-bottom:.5rem"><button class="size-btn" type="button">S</button><button class="size-btn" type="button">M</button><button class="size-btn" type="button">L</button><button class="size-btn" type="button">XL</button><button class="size-btn" type="button">XXL</button></div>
+    <p class="card-price">₹949</p>
+    <div class="card-actions">
+      <button class="btn-cart" type="button">Add to Bag</button>
+      <button class="btn-quick" type="button" title="View details" onclick="document.getElementById('demo-overlay').classList.add('show')">👁</button>
+    </div>
+  </div>
+</article>
+<article class="product-card anim" aria-label="Athletic Performance Tee"
+  data-product='{"id": "t11", "name": "Athletic Performance Tee", "color": "Grey Marl \u00b7 Athletic", "price": "\u20b9699", "priceStr": "\u20b9699", "img": "assets/images/tshirts/11.png"}'>
+  <div class="card-img-wrap">
+    <img src="assets/images/tshirts/11.png" alt="Athletic Performance Tee — Grey Marl · Athletic" loading="lazy" width="400" height="533">
+    
+    <button class="card-wish" data-id="t11" aria-label="Add Athletic Performance Tee to wishlist">♡</button>
+  </div>
+  <div class="card-body">
+    <h3 class="card-name">Athletic Performance Tee</h3>
+    <p class="card-meta">Grey Marl · Athletic</p>
+    <div class="size-options" style="margin-bottom:.5rem"><button class="size-btn" type="button">S</button><button class="size-btn" type="button">M</button><button class="size-btn" type="button">L</button><button class="size-btn" type="button">XL</button><button class="size-btn" type="button">XXL</button></div>
+    <p class="card-price">₹699</p>
+    <div class="card-actions">
+      <button class="btn-cart" type="button">Add to Bag</button>
+      <button class="btn-quick" type="button" title="View details" onclick="document.getElementById('demo-overlay').classList.add('show')">👁</button>
+    </div>
+  </div>
+</article>
+<article class="product-card anim" aria-label="Tie-Dye Dream Tee"
+  data-product='{"id": "t12", "name": "Tie-Dye Dream Tee", "color": "Multicolor \u00b7 Oversized", "price": "\u20b9999", "priceStr": "\u20b9999", "img": "assets/images/tshirts/12.png"}'>
+  <div class="card-img-wrap">
+    <img src="assets/images/tshirts/12.png" alt="Tie-Dye Dream Tee — Multicolor · Oversized" loading="lazy" width="400" height="533">
+    <span class="card-badge ">New</span>
+    <button class="card-wish" data-id="t12" aria-label="Add Tie-Dye Dream Tee to wishlist">♡</button>
+  </div>
+  <div class="card-body">
+    <h3 class="card-name">Tie-Dye Dream Tee</h3>
+    <p class="card-meta">Multicolor · Oversized</p>
+    <div class="size-options" style="margin-bottom:.5rem"><button class="size-btn" type="button">S</button><button class="size-btn" type="button">M</button><button class="size-btn" type="button">L</button><button class="size-btn" type="button">XL</button></div>
+    <p class="card-price">₹999</p>
+    <div class="card-actions">
+      <button class="btn-cart" type="button">Add to Bag</button>
+      <button class="btn-quick" type="button" title="View details" onclick="document.getElementById('demo-overlay').classList.add('show')">👁</button>
+    </div>
+  </div>
+</article>
+<article class="product-card anim" aria-label="Monogram Chest Tee"
+  data-product='{"id": "t13", "name": "Monogram Chest Tee", "color": "Black \u00b7 Regular", "price": "\u20b9799", "priceStr": "\u20b9799", "img": "assets/images/tshirts/13.png"}'>
+  <div class="card-img-wrap">
+    <img src="assets/images/tshirts/13.png" alt="Monogram Chest Tee — Black · Regular" loading="lazy" width="400" height="533">
+    
+    <button class="card-wish" data-id="t13" aria-label="Add Monogram Chest Tee to wishlist">♡</button>
+  </div>
+  <div class="card-body">
+    <h3 class="card-name">Monogram Chest Tee</h3>
+    <p class="card-meta">Black · Regular</p>
+    <div class="size-options" style="margin-bottom:.5rem"><button class="size-btn" type="button">S</button><button class="size-btn" type="button">M</button><button class="size-btn" type="button">L</button><button class="size-btn" type="button">XL</button><button class="size-btn" type="button">XXL</button></div>
+    <p class="card-price">₹799</p>
+    <div class="card-actions">
+      <button class="btn-cart" type="button">Add to Bag</button>
+      <button class="btn-quick" type="button" title="View details" onclick="document.getElementById('demo-overlay').classList.add('show')">👁</button>
+    </div>
+  </div>
+</article>
+<article class="product-card anim" aria-label="Acid Wash Grunge Tee"
+  data-product='{"id": "t14", "name": "Acid Wash Grunge Tee", "color": "Blue \u00b7 Oversized", "price": "\u20b9899", "priceStr": "\u20b9899", "img": "assets/images/tshirts/14.png"}'>
+  <div class="card-img-wrap">
+    <img src="assets/images/tshirts/14.png" alt="Acid Wash Grunge Tee — Blue · Oversized" loading="lazy" width="400" height="533">
+    <span class="card-badge ">Trending</span>
+    <button class="card-wish" data-id="t14" aria-label="Add Acid Wash Grunge Tee to wishlist">♡</button>
+  </div>
+  <div class="card-body">
+    <h3 class="card-name">Acid Wash Grunge Tee</h3>
+    <p class="card-meta">Blue · Oversized</p>
+    <div class="size-options" style="margin-bottom:.5rem"><button class="size-btn" type="button">M</button><button class="size-btn" type="button">L</button><button class="size-btn" type="button">XL</button><button class="size-btn" type="button">XXL</button></div>
+    <p class="card-price">₹899</p>
+    <div class="card-actions">
+      <button class="btn-cart" type="button">Add to Bag</button>
+      <button class="btn-quick" type="button" title="View details" onclick="document.getElementById('demo-overlay').classList.add('show')">👁</button>
+    </div>
+  </div>
+</article>
+<article class="product-card anim" aria-label="French Terry Sweat Tee"
+  data-product='{"id": "t15", "name": "French Terry Sweat Tee", "color": "Cream \u00b7 Boxy", "price": "\u20b91,099", "priceStr": "\u20b91,099", "img": "assets/images/tshirts/15.png"}'>
+  <div class="card-img-wrap">
+    <img src="assets/images/tshirts/15.png" alt="French Terry Sweat Tee — Cream · Boxy" loading="lazy" width="400" height="533">
+    <span class="card-badge gold">Premium</span>
+    <button class="card-wish" data-id="t15" aria-label="Add French Terry Sweat Tee to wishlist">♡</button>
+  </div>
+  <div class="card-body">
+    <h3 class="card-name">French Terry Sweat Tee</h3>
+    <p class="card-meta">Cream · Boxy</p>
+    <div class="size-options" style="margin-bottom:.5rem"><button class="size-btn" type="button">S</button><button class="size-btn" type="button">M</button><button class="size-btn" type="button">L</button><button class="size-btn" type="button">XL</button></div>
+    <p class="card-price">₹1,099</p>
+    <div class="card-actions">
+      <button class="btn-cart" type="button">Add to Bag</button>
+      <button class="btn-quick" type="button" title="View details" onclick="document.getElementById('demo-overlay').classList.add('show')">👁</button>
+    </div>
+  </div>
+</article>
+<article class="product-card anim" aria-label="Retro Stripe Tee"
+  data-product='{"id": "t16", "name": "Retro Stripe Tee", "color": "Multi \u00b7 Regular", "price": "\u20b9849", "priceStr": "\u20b9849", "img": "assets/images/tshirts/16.png"}'>
+  <div class="card-img-wrap">
+    <img src="assets/images/tshirts/16.png" alt="Retro Stripe Tee — Multi · Regular" loading="lazy" width="400" height="533">
+    
+    <button class="card-wish" data-id="t16" aria-label="Add Retro Stripe Tee to wishlist">♡</button>
+  </div>
+  <div class="card-body">
+    <h3 class="card-name">Retro Stripe Tee</h3>
+    <p class="card-meta">Multi · Regular</p>
+    <div class="size-options" style="margin-bottom:.5rem"><button class="size-btn" type="button">S</button><button class="size-btn" type="button">M</button><button class="size-btn" type="button">L</button><button class="size-btn" type="button">XL</button></div>
+    <p class="card-price">₹849</p>
+    <div class="card-actions">
+      <button class="btn-cart" type="button">Add to Bag</button>
+      <button class="btn-quick" type="button" title="View details" onclick="document.getElementById('demo-overlay').classList.add('show')">👁</button>
+    </div>
+  </div>
+</article>
+<article class="product-card anim" aria-label="Solid Pique Polo"
+  data-product='{"id": "t17", "name": "Solid Pique Polo", "color": "White \u00b7 Polo", "price": "\u20b9899", "priceStr": "\u20b9899", "img": "assets/images/tshirts/17.png"}'>
+  <div class="card-img-wrap">
+    <img src="assets/images/tshirts/17.png" alt="Solid Pique Polo — White · Polo" loading="lazy" width="400" height="533">
+    <span class="card-badge ">Classic</span>
+    <button class="card-wish" data-id="t17" aria-label="Add Solid Pique Polo to wishlist">♡</button>
+  </div>
+  <div class="card-body">
+    <h3 class="card-name">Solid Pique Polo</h3>
+    <p class="card-meta">White · Polo</p>
+    <div class="size-options" style="margin-bottom:.5rem"><button class="size-btn" type="button">S</button><button class="size-btn" type="button">M</button><button class="size-btn" type="button">L</button><button class="size-btn" type="button">XL</button><button class="size-btn" type="button">XXL</button></div>
+    <p class="card-price">₹899</p>
+    <div class="card-actions">
+      <button class="btn-cart" type="button">Add to Bag</button>
+      <button class="btn-quick" type="button" title="View details" onclick="document.getElementById('demo-overlay').classList.add('show')">👁</button>
+    </div>
+  </div>
+</article>
+<article class="product-card anim" aria-label="Washed Denim Tee"
+  data-product='{"id": "t18", "name": "Washed Denim Tee", "color": "Indigo \u00b7 Boxy", "price": "\u20b91,199", "priceStr": "\u20b91,199", "img": "assets/images/tshirts/18.png"}'>
+  <div class="card-img-wrap">
+    <img src="assets/images/tshirts/18.png" alt="Washed Denim Tee — Indigo · Boxy" loading="lazy" width="400" height="533">
+    <span class="card-badge ">New</span>
+    <button class="card-wish" data-id="t18" aria-label="Add Washed Denim Tee to wishlist">♡</button>
+  </div>
+  <div class="card-body">
+    <h3 class="card-name">Washed Denim Tee</h3>
+    <p class="card-meta">Indigo · Boxy</p>
+    <div class="size-options" style="margin-bottom:.5rem"><button class="size-btn" type="button">M</button><button class="size-btn" type="button">L</button><button class="size-btn" type="button">XL</button><button class="size-btn" type="button">XXL</button></div>
+    <p class="card-price">₹1,199</p>
+    <div class="card-actions">
+      <button class="btn-cart" type="button">Add to Bag</button>
+      <button class="btn-quick" type="button" title="View details" onclick="document.getElementById('demo-overlay').classList.add('show')">👁</button>
+    </div>
+  </div>
+</article>
+<article class="product-card anim" aria-label="Hustle Bear Graphic Tee"
+  data-product='{"id": "t19", "name": "Hustle Bear Graphic Tee", "color": "Orange \u00b7 Oversized", "price": "\u20b9949", "priceStr": "\u20b9949", "img": "assets/images/tshirts/19.png"}'>
+  <div class="card-img-wrap">
+    <img src="assets/images/tshirts/19.png" alt="Hustle Bear Graphic Tee — Orange · Oversized" loading="lazy" width="400" height="533">
+    <span class="card-badge ">Hype</span>
+    <button class="card-wish" data-id="t19" aria-label="Add Hustle Bear Graphic Tee to wishlist">♡</button>
+  </div>
+  <div class="card-body">
+    <h3 class="card-name">Hustle Bear Graphic Tee</h3>
+    <p class="card-meta">Orange · Oversized</p>
+    <div class="size-options" style="margin-bottom:.5rem"><button class="size-btn" type="button">S</button><button class="size-btn" type="button">M</button><button class="size-btn" type="button">L</button><button class="size-btn" type="button">XL</button><button class="size-btn" type="button">XXL</button></div>
+    <p class="card-price">₹949</p>
+    <div class="card-actions">
+      <button class="btn-cart" type="button">Add to Bag</button>
+      <button class="btn-quick" type="button" title="View details" onclick="document.getElementById('demo-overlay').classList.add('show')">👁</button>
+    </div>
+  </div>
+</article>
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="site-footer" role="contentinfo">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <a href="index.html" class="footer-logo"><span>Vastra</span>laya</a>
+        <p class="footer-tagline">Premium Indian fashion, sourced with care.</p>
+      </div>
+      <nav aria-label="Collections"><h3 class="footer-title">Collections</h3>
+        <ul class="footer-links" role="list">
+          <li><a href="tshirts.html">Men's T-Shirts</a></li><li><a href="kurtis.html">Kurti Sets</a></li>
+          <li><a href="sarees.html">Sarees</a></li><li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+      <nav aria-label="Help"><h3 class="footer-title">Help</h3>
+        <ul class="footer-links" role="list">
+          <li><a href="legal/refund-policy.html">Returns & Refunds</a></li>
+          <li><a href="size-guide.html">Size Guide</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+      <nav aria-label="Legal"><h3 class="footer-title">Legal</h3>
+        <ul class="footer-links" role="list">
+          <li><a href="legal/privacy-policy.html">Privacy Policy</a></li>
+          <li><a href="legal/terms-and-conditions.html">Terms & Conditions</a></li>
+          <li><a href="legal/refund-policy.html">Refund Policy</a></li>
+          <li><a href="legal/cookie-policy.html">Cookie Policy</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Vastralaya. <strong>DEMO WEBSITE — not a real store.</strong></p>
+      <p>Built by <a href="https://northwebco.shop" rel="noopener noreferrer" target="_blank">NorthWeb Co.</a></p>
+    </div>
+  </div>
+</footer>
+<script src="assets/js/main.js"></script>
+</body></html>

@@ -1,0 +1,35 @@
+# Vastralaya D2C Fashion Store — Demo Website
+# Built by NorthWeb Co.
+
+## What This Is
+This is a fictional demonstration website built by NorthWeb Co. to showcase what a D2C fashion e-commerce store could look like. No real products, orders, or payments exist here.
+
+## Structure
+- Homepage (index.html) — Hero, categories, featured products, brand story
+- Men's T-Shirts (tshirts.html) — 20 product listings
+- Kurti Sets (kurtis.html) — 20 product listings  
+- Sarees (sarees.html) — 20 product listings
+- About (about.html) — Brand story and values
+- Contact (contact.html) — Contact form and details
+- Cart/Checkout (cart.html) — Demo checkout flow
+- Legal pages — Privacy, Terms, Refund, Cookie policies
+
+## Technology
+- Pure HTML/CSS/JavaScript — no frameworks
+- DPDPA 2023 compliant cookie handling
+- Accessible (WCAG 2.1 AA) — skip links, ARIA labels, keyboard navigation
+- Responsive — mobile-first design
+- No analytics, no tracking, no third-party embeds
+
+## Design System
+- Palette: Warm Ivory (#FAF8F5), Deep Burgundy (#6B1929), Champagne Gold (#B8892A)
+- Typography: Cormorant Garamond (headings) + Inter (body)
+- Demo by NorthWeb Co. — https://northwebco.shop
+
+## Security Notes (Production checklist)
+- Add Content-Security-Policy headers (_headers file)
+- Replace placeholder business details
+- Connect real payment gateway
+- Set up real form endpoint (Formspree/custom API)
+- Enable HTTPS
+- Set up real cookie analytics only after consent

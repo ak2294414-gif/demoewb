@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <title>Checkout — Vastralaya</title>
+  <meta name="description" content="Complete your order at Vastralaya. DEMO checkout — no real payments.">
+  <meta name="robots" content="noindex,nofollow">
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to main content</a>
+<div id="cookie-banner" class="cookie-banner" role="region" aria-label="Cookie consent" hidden>
+  <div class="cookie-inner">
+    <p class="cookie-text">Essential cookies only. <strong>DPDPA 2023 compliant.</strong> <a href="legal/cookie-policy.html">Cookie Policy</a></p>
+    <div class="cookie-actions">
+      <button id="cookie-accept" class="btn btn-primary btn-sm" type="button">Accept</button>
+      <button id="cookie-decline" class="btn btn-ghost btn-sm" type="button">Decline</button>
+    </div>
+  </div>
+</div>
+<div class="demo-topbar" role="note">⚠️ <strong>DEMO CHECKOUT</strong> — No real payments. No data collected. Built by <a href="https://northwebco.shop" target="_blank" rel="noopener noreferrer">NorthWeb Co.</a></div>
+
+<header class="site-header" role="banner">
+  <nav class="nav" aria-label="Main navigation">
+    <a href="index.html" class="nav-logo" aria-label="Vastralaya Home"><span>Vastra</span>laya</a>
+    <ul id="nav-menu" class="nav-menu" role="list">
+      <li><a href="index.html" class="nav-link">Home</a></li>
+      <li><a href="tshirts.html" class="nav-link">T-Shirts</a></li>
+      <li><a href="kurtis.html" class="nav-link">Kurti Sets</a></li>
+      <li><a href="sarees.html" class="nav-link">Sarees</a></li>
+    </ul>
+    <div class="nav-actions">
+      <button class="nav-icon-btn open-cart" aria-label="Open cart">🛍️<span class="cart-count" hidden>0</span></button>
+    </div>
+  </nav>
+</header>
+
+<div id="cart-overlay" class="cart-overlay" aria-hidden="true"></div>
+<aside id="cart-drawer" class="cart-drawer" role="dialog" aria-modal="true" aria-label="Shopping cart">
+  <div class="cart-header"><h2 class="cart-title">Your Bag</h2><button id="cart-close" class="cart-close" aria-label="Close cart">✕</button></div>
+  <div id="cart-body" class="cart-body"></div>
+  <div id="cart-footer" class="cart-footer" hidden>
+    <div class="cart-subtotal"><span>Subtotal</span><strong id="cart-subtotal">₹0</strong></div>
+    <a href="cart.html" class="btn btn-primary btn-full">Checkout</a>
+  </div>
+</aside>
+
+<main id="main">
+  <div style="background:var(--surf);padding:1.5rem 0;border-bottom:1px solid var(--bdr)">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="index.html">Home</a>
+        <span class="breadcrumb-sep" aria-hidden="true">›</span>
+        <span>Checkout</span>
+      </nav>
+      <h1 class="page-h1" style="font-family:var(--ff-head);font-size:2rem;margin-top:.5rem">Checkout</h1>
+    </div>
+  </div>
+
+  <section class="section" aria-label="Checkout form">
+    <div class="container">
+      <div class="checkout-grid">
+        <!-- LEFT: FORM -->
+        <div>
+          <!-- CART ITEMS SUMMARY -->
+          <div class="checkout-section" id="checkout-cart-items">
+            <h2 class="checkout-section-title">Your Bag</h2>
+            <div id="checkout-items-list">
+              <p style="color:var(--muted);font-size:.9rem">Your cart is empty. <a href="index.html" style="color:var(--p)">Continue shopping →</a></p>
+            </div>
+          </div>
+
+          <!-- SHIPPING FORM -->
+          <form class="checkout-section" id="checkout-form" novalidate aria-label="Shipping and contact details">
+            <h2 class="checkout-section-title">Shipping Details</h2>
+
+            <!-- Honeypot (hidden, bot trap) -->
+            <div class="hp" aria-hidden="true"><label>Leave this empty<input type="text" name="_honey" tabindex="-1" autocomplete="off"></label></div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label" for="first-name">First Name <span aria-hidden="true">*</span></label>
+                <input class="form-input" id="first-name" name="first_name" type="text" required autocomplete="given-name" aria-required="true" placeholder="Priya">
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="last-name">Last Name <span aria-hidden="true">*</span></label>
+                <input class="form-input" id="last-name" name="last_name" type="text" required autocomplete="family-name" aria-required="true" placeholder="Sharma">
+              </div>
+            </div>
+
+            <div class="form-group" style="margin-top:1rem">
+              <label class="form-label" for="email">Email Address <span aria-hidden="true">*</span></label>
+              <input class="form-input" id="email" name="email" type="email" required autocomplete="email" aria-required="true" placeholder="priya@example.com">
+              <p style="font-size:.75rem;color:var(--muted);margin-top:.25rem">Used only for order confirmation. Never shared with third parties.</p>
+            </div>
+
+            <div class="form-group" style="margin-top:1rem">
+              <label class="form-label" for="phone">Phone Number <span aria-hidden="true">*</span></label>
+              <input class="form-input" id="phone" name="phone" type="tel" required autocomplete="tel" aria-required="true" placeholder="+91 98765 43210">
+            </div>
+
+            <div class="form-group" style="margin-top:1rem">
+              <label class="form-label" for="address">Street Address <span aria-hidden="true">*</span></label>
+              <input class="form-input" id="address" name="address" type="text" required autocomplete="street-address" aria-required="true" placeholder="123 MG Road, Indiranagar">
+            </div>
+
+            <div class="form-row" style="margin-top:1rem">
+              <div class="form-group">
+                <label class="form-label" for="city">City <span aria-hidden="true">*</span></label>
+                <input class="form-input" id="city" name="city" type="text" required autocomplete="address-level2" aria-required="true" placeholder="Bengaluru">
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="state">State <span aria-hidden="true">*</span></label>
+                <select class="form-select" id="state" name="state" required aria-required="true">
+                  <option value="">Select State</option>
+                  <option>Andhra Pradesh</option><option>Arunachal Pradesh</option><option>Assam</option>
+                  <option>Bihar</option><option>Chhattisgarh</option><option>Delhi</option>
+                  <option>Goa</option><option>Gujarat</option><option>Haryana</option>
+                  <option>Himachal Pradesh</option><option>Jharkhand</option><option>Karnataka</option>
+                  <option>Kerala</option><option>Madhya Pradesh</option><option>Maharashtra</option>
+                  <option>Manipur</option><option>Meghalaya</option><option>Mizoram</option>
+                  <option>Nagaland</option><option>Odisha</option><option>Punjab</option>
+                  <option>Rajasthan</option><option>Sikkim</option><option>Tamil Nadu</option>
+                  <option>Telangana</option><option>Tripura</option><option>Uttar Pradesh</option>
+                  <option>Uttarakhand</option><option>West Bengal</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group" style="margin-top:1rem">
+              <label class="form-label" for="pincode">PIN Code <span aria-hidden="true">*</span></label>
+              <input class="form-input" id="pincode" name="pincode" type="text" required autocomplete="postal-code" aria-required="true" placeholder="560001" pattern="[0-9]{6}" maxlength="6">
+            </div>
+
+            <!-- PAYMENT SECTION -->
+            <h2 class="checkout-section-title" style="margin-top:2rem;padding-top:1.5rem;border-top:1px solid var(--bdr)">Payment</h2>
+            <div style="display:flex;flex-direction:column;gap:.75rem;margin-bottom:1.5rem">
+              <label style="display:flex;align-items:center;gap:.75rem;cursor:pointer;padding:.875rem 1rem;border:1.5px solid var(--p);border-radius:2px;background:var(--clr-burg-l)">
+                <input type="radio" name="payment" value="upi" checked style="accent-color:var(--p)"> UPI (GPay, PhonePe, Paytm)
+              </label>
+              <label style="display:flex;align-items:center;gap:.75rem;cursor:pointer;padding:.875rem 1rem;border:1.5px solid var(--bdr);border-radius:2px">
+                <input type="radio" name="payment" value="card" style="accent-color:var(--p)"> Credit / Debit Card
+              </label>
+              <label style="display:flex;align-items:center;gap:.75rem;cursor:pointer;padding:.875rem 1rem;border:1.5px solid var(--bdr);border-radius:2px">
+                <input type="radio" name="payment" value="cod" style="accent-color:var(--p)"> Cash on Delivery (₹50 fee)
+              </label>
+            </div>
+
+            <!-- CONSENT -->
+            <div style="margin-bottom:1.25rem">
+              <label style="display:flex;align-items:flex-start;gap:.625rem;cursor:pointer">
+                <input type="checkbox" name="consent" required aria-required="true" style="margin-top:.2rem;accent-color:var(--p)">
+                <span class="form-consent">I agree to the <a href="legal/terms-and-conditions.html">Terms & Conditions</a> and <a href="legal/privacy-policy.html">Privacy Policy</a>. I understand this is a demo and no real transaction will occur. Data entered here is not collected or stored. <a href="legal/refund-policy.html">Refund Policy</a>.</span>
+              </label>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-full btn-lg" data-label="Place Order">Place Order (Demo)</button>
+            <p style="font-size:.75rem;color:var(--muted);text-align:center;margin-top:.75rem">🔒 Demo mode — SSL secured in production · No real payment processed</p>
+          </form>
+        </div>
+
+        <!-- RIGHT: ORDER SUMMARY -->
+        <aside class="order-summary" aria-label="Order summary">
+          <h2 class="order-title">Order Summary</h2>
+          <div class="order-items" id="order-items">
+            <p style="color:var(--muted);font-size:.875rem">Your cart is empty.</p>
+          </div>
+
+          <!-- PROMO CODE -->
+          <div class="promo-row">
+            <input class="promo-input" id="promo-input" type="text" placeholder="Promo code (try DEMO10)" aria-label="Enter promo code">
+            <button class="promo-btn" id="apply-promo" type="button">Apply</button>
+          </div>
+
+          <div class="order-divider"></div>
+          <div class="order-row"><span>Subtotal</span><span id="order-subtotal">₹0</span></div>
+          <div class="order-row"><span>Shipping</span><span id="order-shipping">Free</span></div>
+          <div class="order-row"><span>GST (18%)</span><span id="order-gst">₹0</span></div>
+          <div class="order-divider"></div>
+          <div class="order-row total"><span>Total</span><span id="order-total">₹0</span></div>
+
+          <div style="margin-top:1.25rem;padding:1rem;background:var(--clr-burg-l);border-radius:var(--r);font-size:.8rem;color:var(--clr-burg-d);border:1px solid rgba(107,25,41,.2)">
+            ⚠️ <strong>Demo mode:</strong> No real payment will be charged. This is a demo website built by NorthWeb Co.
+          </div>
+
+          <div style="margin-top:1.25rem;display:flex;gap:.75rem;font-size:.78rem;color:var(--muted);flex-wrap:wrap">
+            <span>🚚 Free delivery above ₹999</span>
+            <span>↩️ 7-day returns</span>
+            <span>🔒 Secure checkout</span>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer" role="contentinfo">
+  <div class="container">
+    <div class="footer-bottom" style="padding:1.5rem 0">
+      <p>© 2025 Vastralaya. <strong>DEMO WEBSITE</strong> — not a real store.</p>
+      <p>Built by <a href="https://northwebco.shop" rel="noopener noreferrer" target="_blank">NorthWeb Co.</a> · <a href="legal/privacy-policy.html">Privacy</a></p>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+<script>
+// Populate checkout from cart
+document.addEventListener('DOMContentLoaded', () => {
+  let cart = [];
+  try { cart = JSON.parse(localStorage.getItem('nx_cart_v1')) || []; } catch(e) {}
+
+  const itemsList = document.getElementById('checkout-items-list');
+  const orderItems = document.getElementById('order-items');
+  const orderSubtotal = document.getElementById('order-subtotal');
+  const orderGst = document.getElementById('order-gst');
+  const orderTotal = document.getElementById('order-total');
+  const orderShipping = document.getElementById('order-shipping');
+
+  if (cart.length === 0) return;
+
+  const subtotal = cart.reduce((s,i) => s + i.qty * i.price, 0);
+  const shipping = subtotal >= 999 ? 0 : 99;
+  const gst = Math.round(subtotal * 0.18);
+  const total = subtotal + shipping + gst;
+
+  itemsList.innerHTML = cart.map(i => `
+    <div class="cart-item">
+      <img src="${i.img}" alt="${i.name}" class="cart-item-img" loading="lazy">
+      <div class="cart-item-info">
+        <div class="cart-item-name">${i.name}</div>
+        <div class="cart-item-meta">${i.size} · ${i.color} · Qty: ${i.qty}</div>
+        <div class="cart-item-price">${i.priceStr}</div>
+      </div>
+    </div>`).join('');
+
+  orderItems.innerHTML = cart.map(i => `
+    <div class="order-item">
+      <img src="${i.img}" alt="${i.name}" class="order-item-img" loading="lazy">
+      <div class="order-item-info">
+        <div class="order-item-name">${i.name}</div>
+        <div class="order-item-meta">${i.size} · Qty ${i.qty}</div>
+      </div>
+      <div class="order-item-price">${i.priceStr}</div>
+    </div>`).join('');
+
+  orderSubtotal.textContent = '₹' + subtotal.toLocaleString('en-IN');
+  orderShipping.textContent = shipping === 0 ? 'Free' : '₹' + shipping;
+  orderGst.textContent = '₹' + gst.toLocaleString('en-IN');
+  orderTotal.textContent = '₹' + total.toLocaleString('en-IN');
+});
+</script>
+</body>
+</html>
