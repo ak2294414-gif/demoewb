@@ -518,3 +518,130 @@ h1,h2,h3 { font-family: var(--ff-head); font-weight: 600; letter-spacing: -.01em
 @media (prefers-reduced-motion:reduce) {
   *,.anim { transition:none!important;animation:none!important; }
 }
+
+/* ════════════════════════════════════════════════════════════
+   COMPREHENSIVE MOBILE FIX — All Pages
+   ════════════════════════════════════════════════════════════ */
+
+/* ── CONTACT PAGE: inline grid fix ── */
+.contact-grid { display:grid; grid-template-columns:1fr 1.5fr; gap:3rem; align-items:start; }
+
+/* ── ABOUT: stats row ── */
+.about-stats { display:flex; gap:3rem; margin-top:2.5rem; flex-wrap:wrap; }
+
+/* ── SIZE GUIDE: nav missing hamburger fix ── */
+.size-guide-nav .nav-toggle { display:none; }
+
+/* ── COOKIE BANNER: mobile stacking ── */
+@media (max-width:600px) {
+  .cookie-inner { flex-direction:column; gap:.875rem; align-items:flex-start; }
+  .cookie-actions { width:100%; justify-content:flex-start; gap:.625rem; }
+  .cookie-text { font-size:.8125rem; }
+}
+
+/* ── MEDIUM PHONES ── */
+@media (max-width:768px) {
+
+  /* CONTACT PAGE */
+  .contact-grid { grid-template-columns:1fr; gap:2rem; }
+
+  /* ABOUT PAGE */
+  .about-hero { padding:2.5rem 0; }
+  .about-hero-inner { grid-template-columns:1fr; gap:2rem; }
+  .about-imgs-grid { display:none; }
+  .about-title { font-size:2rem; }
+  .about-lead { font-size:.9375rem; }
+  .about-stats { gap:1.5rem; margin-top:1.5rem; }
+  .values-grid { grid-template-columns:1fr; gap:1rem; }
+  .team-grid { grid-template-columns:1fr 1fr; gap:1rem; }
+
+  /* SIZE GUIDE */
+  .size-guide-nav .nav-toggle { display:flex; }
+  .legal-page { padding:1.25rem .875rem; }
+  .legal-title { font-size:1.5rem; }
+
+  /* CHECKOUT / CART PAGE */
+  .checkout-grid { grid-template-columns:1fr; gap:1.25rem; }
+  .checkout-section { padding:1.25rem; }
+  .order-summary { position:static; padding:1.25rem; }
+  .order-title { font-size:1.15rem; }
+  .promo-row { flex-direction:column; gap:.5rem; }
+  .promo-input { width:100%; }
+  .promo-btn { width:100%; }
+  .form-input, .form-select { font-size:1rem; padding:.8125rem 1rem; } /* prevents iOS zoom */
+
+  /* PAYMENT OPTIONS on checkout */
+  [name="payment"] + * { font-size:.875rem; }
+
+  /* NAV on size-guide (missing toggle) */
+  .nav-toggle { display:flex !important; }
+
+  /* FOOTER full columns */
+  .footer-grid { grid-template-columns:1fr; gap:1.5rem; }
+  .footer-bottom { flex-direction:column; text-align:center; gap:.375rem; font-size:.75rem; }
+
+  /* 404 PAGE */
+  .not-found-num { font-size:5rem; }
+  .not-found-title { font-size:1.5rem; }
+
+  /* DEMO MODAL */
+  .demo-box { padding:1.75rem 1.25rem; }
+
+  /* TOAST */
+  .toast { font-size:.8125rem; padding:.625rem 1.125rem; max-width:calc(100vw - 2rem); white-space:normal; text-align:center; }
+
+  /* CART DRAWER */
+  .cart-drawer { width:100vw !important; }
+  .cart-header { padding:1rem 1.125rem; }
+  .cart-body { padding:1rem 1.125rem; }
+  .cart-footer { padding:1rem 1.125rem; }
+
+  /* PAGE HEADER (category pages) */
+  .page-header { padding:1.5rem 0 1.25rem; }
+  .page-h1 { font-size:1.625rem; }
+  .filter-bar { overflow-x:auto; flex-wrap:nowrap; padding-bottom:.5rem; -webkit-overflow-scrolling:touch; }
+  .filter-chip { flex-shrink:0; }
+
+  /* BREADCRUMB */
+  .breadcrumb { padding:.625rem 0; flex-wrap:wrap; }
+}
+
+/* ── SMALL PHONES (≤480px) ── */
+@media (max-width:480px) {
+  /* CHECKOUT */
+  .checkout-section { padding:1rem; }
+  .checkout-section-title { font-size:1.1rem; }
+  .order-summary { padding:1rem; }
+
+  /* ABOUT TEAM */
+  .team-grid { grid-template-columns:1fr 1fr; gap:.75rem; }
+  .team-img { border-width:2px; }
+
+  /* SIZE GUIDE TABLE: reduce font */
+  .size-table { font-size:.78rem; }
+  .size-table th, .size-table td { padding:.5rem .625rem; }
+
+  /* CONTACT quick-contact buttons */
+  .btn-lg { font-size:.875rem; padding:.875rem 1.25rem; }
+
+  /* COOKIE */
+  .cookie-banner { padding:.875rem 1rem; }
+
+  /* FEAT BAR */
+  .feat-bar-grid { grid-template-columns:1fr; gap:.875rem; }
+  .feat-bar-item { align-items:center; }
+
+  /* FOOTER */
+  .footer-social { gap:.5rem; }
+  .footer-social a { width:32px; height:32px; }
+}
+
+/* ── VERY SMALL (≤360px) ── */
+@media (max-width:360px) {
+  .nav-logo { font-size:1.25rem; }
+  .hero-title { font-size:1.5rem; }
+  .btn { padding:.625rem 1rem; font-size:.8125rem; }
+  .product-grid { grid-template-columns:1fr; }
+  .card-body { padding:.75rem; }
+}
+
