@@ -10,12 +10,25 @@
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../assets/css/style.css">
 <style>
+/* Page-level mobile overrides */
 @media(max-width:768px){
   html,body{overflow-x:hidden;width:100%}
+  .container{padding-inline:1rem;width:100%}
   .nav-menu{display:none!important}
   .nav-menu.open{display:flex!important;position:fixed;top:72px;left:0;right:0;bottom:0;background:var(--bg,#FAF8F5);flex-direction:column;align-items:stretch;padding:1.25rem;gap:.25rem;list-style:none;z-index:999;overflow-y:auto;transform:none!important}
   .nav-toggle{display:flex!important}
   .cart-drawer{width:100vw!important}
+  .cookie-inner{flex-direction:column;gap:.75rem;align-items:flex-start}
+  .cookie-actions{width:100%;gap:.625rem}
+  /* Override inline-style two-column grids */
+  [style*="grid-template-columns:1fr 1.5fr"]{grid-template-columns:1fr!important}
+  [style*="grid-template-columns:1fr 2fr"]{grid-template-columns:1fr!important}
+  [style*="grid-template-columns:2fr 1fr"]{grid-template-columns:1fr!important}
+}
+@media(max-width:480px){
+  .btn-lg{padding:.875rem 1.25rem;font-size:.875rem}
+  .hero-actions .btn{width:100%;justify-content:center}
+  .feat-bar-grid{grid-template-columns:1fr}
 }
 </style>
 </head>
