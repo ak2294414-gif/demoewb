@@ -162,20 +162,20 @@
             <!-- PAYMENT SECTION -->
             <h2 class="checkout-section-title" style="margin-top:2rem;padding-top:1.5rem;border-top:1px solid var(--bdr)">Payment</h2>
             <div style="display:flex;flex-direction:column;gap:.75rem;margin-bottom:1.5rem">
-              <label style="display:flex;align-items:center;gap:.75rem;cursor:pointer;padding:.875rem 1rem;border:1.5px solid var(--p);border-radius:2px;background:var(--clr-burg-l)">
+              <label class="payment-label payment-label--active">
                 <input type="radio" name="payment" value="upi" checked style="accent-color:var(--p)"> UPI (GPay, PhonePe, Paytm)
               </label>
-              <label style="display:flex;align-items:center;gap:.75rem;cursor:pointer;padding:.875rem 1rem;border:1.5px solid var(--bdr);border-radius:2px">
+              <label class="payment-label">
                 <input type="radio" name="payment" value="card" style="accent-color:var(--p)"> Credit / Debit Card
               </label>
-              <label style="display:flex;align-items:center;gap:.75rem;cursor:pointer;padding:.875rem 1rem;border:1.5px solid var(--bdr);border-radius:2px">
+              <label class="payment-label">
                 <input type="radio" name="payment" value="cod" style="accent-color:var(--p)"> Cash on Delivery (₹50 fee)
               </label>
             </div>
 
             <!-- CONSENT -->
             <div style="margin-bottom:1.25rem">
-              <label style="display:flex;align-items:flex-start;gap:.625rem;cursor:pointer">
+              <label class="consent-label">
                 <input type="checkbox" name="consent" required aria-required="true" style="margin-top:.2rem;accent-color:var(--p)">
                 <span class="form-consent">I agree to the <a href="legal/terms-and-conditions.html">Terms & Conditions</a> and <a href="legal/privacy-policy.html">Privacy Policy</a>. I understand this is a demo and no real transaction will occur. Data entered here is not collected or stored. <a href="legal/refund-policy.html">Refund Policy</a>.</span>
               </label>
@@ -210,7 +210,7 @@
             ⚠️ <strong>Demo mode:</strong> No real payment will be charged. This is a demo website built by NorthWeb Co.
           </div>
 
-          <div style="margin-top:1.25rem;display:flex;gap:.75rem;font-size:.78rem;color:var(--muted);flex-wrap:wrap">
+          <div class="trust-badges">
             <span>🚚 Free delivery above ₹999</span>
             <span>↩️ 7-day returns</span>
             <span>🔒 Secure checkout</span>
